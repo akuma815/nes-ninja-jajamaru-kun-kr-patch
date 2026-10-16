@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-10-16T18:40:43.1323347+09:00",
+  "target_absent": true,
+  "deleted_game_files": 1793,
+  "deleted_game_bytes": 1316483318,
+  "source_and_ips_rebuild": "PASS",
+  "remote_handoff_commit_before_delete": "3c1760fd8ea12a2a43cb682ccad3ec77e090dd23",
+  "archive_sha256": "eaed7482678eb1d090adaac9e9911ef6654b1a25aac072b407ea56927dcbb1a2",
+  "archive_record_count": 792,
+  "other_games_names_unchanged": true,
+  "isolated_rebuild_generated_rom_and_extracts_removed": true,
+  "target": "Games/Ninja Jajamaru-kun",
+  "archive": "work/cleanup_jajamaru_20261016/Ninja_Jajamaru_kun_work_records_20261016.zip",
+  "scope": "Named game folder plus outputs of this isolated rebuild; supply supported original ROM separately later."
+}
