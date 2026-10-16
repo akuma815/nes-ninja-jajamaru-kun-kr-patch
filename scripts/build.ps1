@@ -3,6 +3,7 @@ $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $PSScriptRoot
 Push-Location -LiteralPath $projectRoot
 try {
+    New-Item -ItemType Directory -Path (Join-Path $projectRoot 'build') -Force | Out-Null
     $sourceArgs = @()
     if ($SourceRom) { $sourceArgs = @('--source', $SourceRom) }
     & python scripts/extract_title_png.py @sourceArgs

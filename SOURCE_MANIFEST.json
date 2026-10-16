@@ -1,186 +1,286 @@
 {
-  "date": "2026-10-16",
-  "project": "닌자 자자마루군",
+  "version": "1.0",
+  "scope": "ROM-free source snapshot, licensed fonts and authored Korean art; no full ROM, raw source graphics or QA dumps",
   "files": [
     {
-      "path": "scripts/build.ps1",
-      "source": "scripts/build.ps1",
-      "bytes": 995,
-      "sha256": "e712fb1a2baa5e95f27bef67920410115a1e945977e92b6cb0b7661efa6df396"
+      "path": ".gitattributes",
+      "sha256": "76675aef1f11ab58aa34dcc5679e14ac421f41543d740146942401891f867f13"
     },
     {
-      "path": "scripts/build_title.py",
-      "source": "scripts/build_title.py",
-      "bytes": 7658,
-      "sha256": "41508489f8e99f842b183ddae80bcc0eda24d51e9485d589569e9ec3878f9d2e"
+      "path": ".gitignore",
+      "sha256": "01e80a4c2f388ef90377e399cd5f9e994dd63cd264e3defa7ea5d6ffff7e7a8b"
     },
     {
-      "path": "scripts/capture_title.lua",
-      "source": "scripts/capture_title.lua",
-      "bytes": 2640,
-      "sha256": "61bb5409f88cfb53944b28d9909f688f7eec746fd46376f3209d502e5c53606b"
+      "path": "README.md",
+      "sha256": "51df0f5f0d6e0b734d663e6e11aa7a95ba74facb035f3df8b9b126b8dfcdc5a4"
     },
     {
-      "path": "scripts/convert_generated_title.py",
-      "source": "scripts/convert_generated_title.py",
-      "bytes": 2834,
-      "sha256": "c19dbccf4d45343a50a6740338e34c96263bf6d2b8cdff2c51980f8a1afbf317"
+      "path": "assets/enemy/v1_0/appearance_kr.png",
+      "sha256": "125e3d180d5a0756383044365b03c7648dd4e2093cf57df028672dd98a35599e"
     },
     {
-      "path": "scripts/extract_title_png.py",
-      "source": "scripts/extract_title_png.py",
-      "bytes": 1522,
-      "sha256": "b48eb9deb3ee4aab4bfd47d0ac8d947bb3c6507a629ac1a14c7f355f51dce2b2"
+      "path": "assets/enemy/v1_0/enemy_0_kr.png",
+      "sha256": "4f705d8057184647df5f6d6a1f85f95b346f84fdd35fd80982d7d3e35f41e344"
     },
     {
-      "path": "scripts/make_title_art.py",
-      "source": "scripts/make_title_art.py",
-      "bytes": 1869,
-      "sha256": "f2fe37d067b92bb800b8121bb0de157dd7fdc582fb7bc56742bc8220c07197f0"
+      "path": "assets/enemy/v1_0/enemy_1_kr.png",
+      "sha256": "1a193f8f8f0fb7f4ca1f6d9ad01090eee45c644f2468c2161a0981154f210fda"
     },
     {
-      "path": "scripts/menu_assets.py",
-      "source": "scripts/menu_assets.py",
-      "bytes": 3166,
-      "sha256": "889988772b42940cb33c89c108fb6f6ee15d9d05bc565342cef184e4837f1dc3"
+      "path": "assets/enemy/v1_0/enemy_2_kr.png",
+      "sha256": "620a03634df8182adcd56d7f3c208b8b41642f37bfcb7fa06be48a46c82a3361"
     },
     {
-      "path": "scripts/nes_graphics.py",
-      "source": "scripts/nes_graphics.py",
-      "bytes": 546,
-      "sha256": "f3ef2675831dab44e256c01a6477e34b6e101ea09d4d7e033142a26035dbc2a2"
+      "path": "assets/enemy/v1_0/enemy_3_kr.png",
+      "sha256": "4048a1c47da7285dc1a8a42ebd684874bde4bbfdf60e089930ab221b7de106a3"
     },
     {
-      "path": "scripts/run_title_qa.py",
-      "source": "scripts/run_title_qa.py",
-      "bytes": 2418,
-      "sha256": "5c065405f02037604faa1d8cf5bd9c7438956b0dcf44c2fbf984e9eb30efb7df"
+      "path": "assets/enemy/v1_0/enemy_4_kr.png",
+      "sha256": "fa6fa4a954e5d006b1c4c66dfa6d3b4f5a848813758ab04d18aaedc83415f755"
     },
     {
-      "path": "scripts/survey_menu.py",
-      "source": "scripts/survey_menu.py",
-      "bytes": 3051,
-      "sha256": "63b05e161bac55333653ac880ad8634430c73867260c0160b7ef822a966be390"
+      "path": "assets/enemy/v1_0/enemy_5_kr.png",
+      "sha256": "5b293020b37155ec2a2776d07c4270d04bad2e4f8863f42c5c00b0345ab8138c"
     },
     {
-      "path": "scripts/survey_title.py",
-      "source": "scripts/survey_title.py",
-      "bytes": 2501,
-      "sha256": "4d6ba541994b62189ef0c1fca2798af0731c0fcefbf765b444c9ba1372b307bb"
+      "path": "assets/enemy/v1_0/enemy_6_kr.png",
+      "sha256": "7dc5bda736c0c96f3f7671586d1db0cfe7d6319e4a43b8411040bea9b8ce9651"
     },
     {
-      "path": "scripts/verify_title_qa.py",
-      "source": "scripts/verify_title_qa.py",
-      "bytes": 7411,
-      "sha256": "45ffb5ebd4a9e829d272f2901d0bedbc7c13979583b6731033b0c11c9cc33d9c"
+      "path": "assets/enemy/v1_0/spec.json",
+      "sha256": "54b0dabc9b1f4dc9c08540d04789ce117489d3ddea33a765544ad63fad439135"
     },
     {
-      "path": "config/source.json",
-      "source": "config/source.json",
-      "bytes": 280,
-      "sha256": "4138dbe4b40bf81d4bbea6f4e99025effe0fac070474628a30ed1fdcc46b3245"
-    },
-    {
-      "path": "config/title.json",
-      "source": "config/title.json",
-      "bytes": 1370,
-      "sha256": "89092d375e5145360210ebe6e2031307629f515b0cb85cedfbe38ff710620621"
-    },
-    {
-      "path": "config/title_kr_ai_001.json",
-      "source": "config/title_kr_ai_001.json",
-      "bytes": 719,
-      "sha256": "3b389f83483fa01a1a3b094a9e52f765ac682d9ba456b8cb0e5051c058218aff"
-    },
-    {
-      "path": "config/title_kr_ai_002.json",
-      "source": "config/title_kr_ai_002.json",
-      "bytes": 1129,
-      "sha256": "c96f43488150a4df3111772a86e993362dbd8c5c4ba9c56f1c2c67a58ff94808"
+      "path": "assets/fonts/Galmuri7.ttf",
+      "sha256": "3882bd35066c26b0392cd4963ff9b3c151041dec34adc9d5633d137d1d9b9855"
     },
     {
       "path": "assets/fonts/Galmuri_OFL.md",
-      "source": "assets/fonts/Galmuri_OFL.md",
-      "bytes": 4266,
       "sha256": "9a9e5a342c430c3fcf01a408b680f4405d5bf4ac659c931be35f8a1b27ea69c9"
     },
     {
+      "path": "assets/fonts/JejuHallasan-Regular.ttf",
+      "sha256": "71d1198c27d7177ed6a178c5131daca11996f207490364550317d9666e4748e9"
+    },
+    {
+      "path": "assets/fonts/JejuHallasan_OFL.txt",
+      "sha256": "6939af7114f0a33c7e6142d4c1320d1bbde11aebe6d8f3c48fc5fb3e0f676a7b"
+    },
+    {
+      "path": "assets/menu/menu_glyphs.png",
+      "sha256": "f1778ec467cfc28b3faf099014e405a9af468015c29b5ff4348b1eb6a04e886b"
+    },
+    {
       "path": "assets/menu/menu_kr.json",
-      "source": "assets/menu/menu_kr.json",
-      "bytes": 1731,
       "sha256": "3dc98e631b0eb36e8715223ec8599c88c99d1ae121a6e98e64e8ad4795e6b0dc"
     },
     {
       "path": "assets/title/title_kr_ai_001_prompt.txt",
-      "source": "assets/title/title_kr_ai_001_prompt.txt",
-      "bytes": 1703,
       "sha256": "3717350dde7d999476cb01ef6af429ddd82b2d11efcf13b3db98d29f64c69da2"
     },
     {
+      "path": "assets/title/title_kr_ai_002_generated.png",
+      "sha256": "1d0ce224ab72bcd954997387b5ad053dbe8f7273280a0eb51a53e2faec2cdb9b"
+    },
+    {
+      "path": "assets/title/title_kr_ai_002_nes.png",
+      "sha256": "b91ffe31a5bc8589f826937c07f1cacc6827f77aa45c1a85d1e6f2788de13e2e"
+    },
+    {
       "path": "assets/title/title_kr_ai_002_prompt.txt",
-      "source": "assets/title/title_kr_ai_002_prompt.txt",
-      "bytes": 1554,
       "sha256": "d411099152bd7d151a3c5ef870fc244632c377e05d7299ac73bb11e02773b300"
     },
     {
+      "path": "config/release_v1_0.json",
+      "sha256": "aa683158100bd04574421b1d7694e406241b55c743f85a0e2bb9c1b03f8d6613"
+    },
+    {
+      "path": "config/source.json",
+      "sha256": "4138dbe4b40bf81d4bbea6f4e99025effe0fac070474628a30ed1fdcc46b3245"
+    },
+    {
+      "path": "config/title.json",
+      "sha256": "aa683158100bd04574421b1d7694e406241b55c743f85a0e2bb9c1b03f8d6613"
+    },
+    {
+      "path": "config/title_kr_ai_001.json",
+      "sha256": "3b389f83483fa01a1a3b094a9e52f765ac682d9ba456b8cb0e5051c058218aff"
+    },
+    {
+      "path": "config/title_kr_ai_002.json",
+      "sha256": "c96f43488150a4df3111772a86e993362dbd8c5c4ba9c56f1c2c67a58ff94808"
+    },
+    {
+      "path": "config/title_kr_menu_003.json",
+      "sha256": "89092d375e5145360210ebe6e2031307629f515b0cb85cedfbe38ff710620621"
+    },
+    {
       "path": "docs/ARCHITECTURE.md",
-      "source": "docs/ARCHITECTURE.md",
-      "bytes": 5958,
       "sha256": "fbfd17459b2f7ac351c703e51905fb28ed79cbb2185855f452ed5430614f6978"
     },
     {
       "path": "docs/HANDOFF.md",
-      "source": "docs/HANDOFF.md",
-      "bytes": 187,
-      "sha256": "09cc49f45eaf7b6891eaf7942101dc1960edabfa368622a2c7b99429016f0a72"
+      "sha256": "1b4d2ba347c47c31fdecbdf6fa1ff613b59e4e6e76c607ec03cbdd49ad3f52ac"
     },
     {
       "path": "docs/HANDOFF_2026-10-10.md",
-      "source": "docs/HANDOFF_2026-10-10.md",
-      "bytes": 8137,
       "sha256": "6d4ec4937f0c80e78cac2b7ddce3328c85eed6358ba9e5af69d76d71b8865df0"
     },
     {
+      "path": "docs/HANDOFF_2026-10-16.md",
+      "sha256": "f80054b64cb052d94429fc2bc848d9698d3cac1ab9b94a5a6bc28e6080781ce5"
+    },
+    {
+      "path": "docs/PROJECT_NOTES.md",
+      "sha256": "f501ece31952d75f5edf027bfd2c3d2ba69776354fe88b293d672a9ff217330f"
+    },
+    {
+      "path": "docs/README_IMAGE.json",
+      "sha256": "52f3efffe8142ca3b245ae5bff032b671b55b8b3819df0b46a81770ed813188b"
+    },
+    {
       "path": "docs/REVISION_title_kr_ai_002_2026-10-10.md",
-      "source": "docs/REVISION_title_kr_ai_002_2026-10-10.md",
-      "bytes": 5279,
       "sha256": "1e72b10a57283255a0c805ac0846a436999900337338d267095fd14eeb5e2fc0"
     },
     {
       "path": "docs/SESSION_ARTIFACTS_2026-10-10.json",
-      "source": "docs/SESSION_ARTIFACTS_2026-10-10.json",
-      "bytes": 36840,
       "sha256": "55842c410b8a4fd59cb0ef75102e2b6920e9b5908e7c75a2d1d94a1236c715ce"
     },
     {
       "path": "docs/SESSION_ARTIFACTS_2026-10-10_title_kr_ai_002.json",
-      "source": "docs/SESSION_ARTIFACTS_2026-10-10_title_kr_ai_002.json",
-      "bytes": 54127,
       "sha256": "42f3424ea19518576829ecde9a3205511920c6e10331717327c9cddaf7e783f9"
     },
     {
       "path": "docs/SESSION_ARTIFACTS_2026-10-10_title_kr_menu_003.json",
-      "source": "docs/SESSION_ARTIFACTS_2026-10-10_title_kr_menu_003.json",
-      "bytes": 84703,
       "sha256": "4806f6075be4152abc8e25bc5aae11d1dbf8381f3042ccfb7d439db7f25dfbe5"
     },
     {
+      "path": "docs/SOURCE_GUIDE.md",
+      "sha256": "fcabfc5bfd3cef80004772b92d148418942fd9b1f1e1b8ae0974f72646ebc20f"
+    },
+    {
       "path": "docs/archive/HANDOFF_2026-10-10_before_menu003.md",
-      "source": "docs/archive/HANDOFF_2026-10-10_before_menu003.md",
-      "bytes": 9375,
       "sha256": "38c674d51f8cfe1233493a206415b0d39a7500d9f7ba7dc0b89bd0a3fb0801df"
     },
     {
-      "path": "requirements.txt",
-      "source": "requirements.txt",
-      "bytes": 15,
-      "sha256": "41b54a6fb2918667ca47a61d73b522629d84490f3d78f0f20b21135faba10d35"
+      "path": "docs/releases/v1.0/RELEASE_NOTES.md",
+      "sha256": "fc94870e5b139288bef99765aac850e42ecaf9e826e7f1d5e03bf0f79fcc28ab"
     },
     {
-      "path": "docs/PROJECT_NOTES.md",
-      "source": "README.md",
-      "bytes": 3545,
-      "sha256": "f501ece31952d75f5edf027bfd2c3d2ba69776354fe88b293d672a9ff217330f"
+      "path": "docs/releases/v1.0/apply_validation.json",
+      "sha256": "c72f557597118c9c202a8d71c639d2521955f633ddfdaf93f050f88c7e8db83b"
+    },
+    {
+      "path": "docs/releases/v1.0/release_report.json",
+      "sha256": "378655558f6d0a4721ff71f75c70cbccdf4e0db4fac06cbd21a57ca31dd81917"
+    },
+    {
+      "path": "docs/releases/v1.0/source_build.json",
+      "sha256": "3115bc54809366ff6deb674ee5c0c0466a225d424dfa74a310f89d46e15531b3"
+    },
+    {
+      "path": "img/appearance.png",
+      "sha256": "3672c8e6de01f84057bbdf6a6a43812219aefd591e0d13bdda6ee1a688626673"
+    },
+    {
+      "path": "img/enemy_names.png",
+      "sha256": "cbf14225aef8d54a5de8134d2b72d0de9787e7d1fb8ed768963fd7f558dba623"
+    },
+    {
+      "path": "img/preview.png",
+      "sha256": "ddecbbb92debd5611cd3242da5fb642b22a4e0ca18b76a4bf9487a5800d6a7eb"
+    },
+    {
+      "path": "patches/Ninja_Jajamaru_kun_KR_title_release_100.ips",
+      "sha256": "571a29e72c3700584b2243f73f9d962483880c303a568078d42a7a443014f362"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "41bed84567caf719a6ecada9676547d4dde9a31b0ba486c035e054902ce72053"
+    },
+    {
+      "path": "scripts/brush_poc_assets.py",
+      "sha256": "1722018a54c3b683e1ada696350540ef0e958febb849aa1707dd2a47420a6651"
+    },
+    {
+      "path": "scripts/build.ps1",
+      "sha256": "bcc80f44cde85fd0263554dc7f2878b479d175d7d50247e23bc579587d85df0a"
+    },
+    {
+      "path": "scripts/build_title.py",
+      "sha256": "d1777149aa045c3aa8e7af5b55e6437f519942214a53cbf7a9ff71de47339e69"
+    },
+    {
+      "path": "scripts/capture_enemy_roots.lua",
+      "sha256": "f0926b8b86d7a400ae1003b61bbcf2184ae3ef2c0c68643d80d4e899ed508378"
+    },
+    {
+      "path": "scripts/capture_title.lua",
+      "sha256": "61bb5409f88cfb53944b28d9909f688f7eec746fd46376f3209d502e5c53606b"
+    },
+    {
+      "path": "scripts/convert_generated_title.py",
+      "sha256": "c19dbccf4d45343a50a6740338e34c96263bf6d2b8cdff2c51980f8a1afbf317"
+    },
+    {
+      "path": "scripts/enemy_assets.py",
+      "sha256": "3414151595014c611e01da955be1e36eff1961eb2f41b7e7da7ef60c64f3cf1d"
+    },
+    {
+      "path": "scripts/extract_title_png.py",
+      "sha256": "b48eb9deb3ee4aab4bfd47d0ac8d947bb3c6507a629ac1a14c7f355f51dce2b2"
+    },
+    {
+      "path": "scripts/make_title_art.py",
+      "sha256": "f2fe37d067b92bb800b8121bb0de157dd7fdc582fb7bc56742bc8220c07197f0"
+    },
+    {
+      "path": "scripts/menu_assets.py",
+      "sha256": "889988772b42940cb33c89c108fb6f6ee15d9d05bc565342cef184e4837f1dc3"
+    },
+    {
+      "path": "scripts/nes_graphics.py",
+      "sha256": "f3ef2675831dab44e256c01a6477e34b6e101ea09d4d7e033142a26035dbc2a2"
+    },
+    {
+      "path": "scripts/package_release.py",
+      "sha256": "953e5bbbf4c634f53343574ca33bc5626d94ce2a852655ea42f00a809f9ae56b"
+    },
+    {
+      "path": "scripts/release/apply.cmd",
+      "sha256": "bae3c04d1dacdd0d42df94f0ce2277b8a8c5840fb87aa1687ad14d68b81d0bb0"
+    },
+    {
+      "path": "scripts/release/apply.ps1",
+      "sha256": "f6d4cce6265af77a2dfbe7048421f1ec81e1b871fe17da2b00561a9758373e68"
+    },
+    {
+      "path": "scripts/run_enemy_roots.py",
+      "sha256": "0394ca916bead902c60dd261196a66070c30f2239f8f8281d40d72e768eb92e5"
+    },
+    {
+      "path": "scripts/run_title_qa.py",
+      "sha256": "5c065405f02037604faa1d8cf5bd9c7438956b0dcf44c2fbf984e9eb30efb7df"
+    },
+    {
+      "path": "scripts/survey_menu.py",
+      "sha256": "63b05e161bac55333653ac880ad8634430c73867260c0160b7ef822a966be390"
+    },
+    {
+      "path": "scripts/survey_title.py",
+      "sha256": "4d6ba541994b62189ef0c1fca2798af0731c0fcefbf765b444c9ba1372b307bb"
+    },
+    {
+      "path": "scripts/verify_enemy_roots.py",
+      "sha256": "c23382a748a19a88a977e2b4a1f953a41a0599f57f4722729d96d02e7779bfbe"
+    },
+    {
+      "path": "scripts/verify_release_package.py",
+      "sha256": "9bc04d814404549f7d5a804ec94ed2de5f5b4fdc688eb064766ae65125f11d4d"
+    },
+    {
+      "path": "scripts/verify_title_qa.py",
+      "sha256": "7833c8cdc99f86a1fd0a14eb6eede6fd3cc2c4a0b2504ec2e28d399970ec6c73"
     }
   ]
 }

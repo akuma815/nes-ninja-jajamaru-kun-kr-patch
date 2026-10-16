@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "source_checkout_rebuild": "External original ROM supplied using -SourceRom; licensed fonts and authored title art present in public source",
+  "target_sha256": "b7e79f8de2bc76e0e09db0b2e8041b349eb051e04b73067ea231cd0117c243f9",
+  "original_rom_copied_into_repository": false,
+  "first_clean_build_fix": "Build wrapper now creates its output directory before conversion"
+}

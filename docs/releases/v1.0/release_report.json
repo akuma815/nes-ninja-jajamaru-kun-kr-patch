@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "version": "1.0",
+  "game": "Ninja Jajamaru-kun (Japan), NES",
+  "build_id": "title_kr_release_100",
+  "source": {
+    "sha256": "c44602e4605d0c60e72a13565cdf12798262bcf22e6a70319375c250fc2ac45b",
+    "size": 32784,
+    "header_hex": "4e45531a010271500000000000000000"
+  },
+  "target": {
+    "sha256": "b7e79f8de2bc76e0e09db0b2e8041b349eb051e04b73067ea231cd0117c243f9",
+    "size": 32784
+  },
+  "patch": {
+    "filename": "Ninja_Jajamaru_kun_KR_v1.0.ips",
+    "sha256": "571a29e72c3700584b2243f73f9d962483880c303a568078d42a7a443014f362"
+  },
+  "output_filename": "Ninja_Jajamaru_kun_KR_v1.0.nes",
+  "scope": [
+    "Korean title logo and player-count menu",
+    "All seven known Japanese enemy-name introductions and shared appearance label in Jeju Hallasan",
+    "Non-title English retained"
+  ],
+  "validation": {
+    "static_and_build": {
+      "source_identity": "PASS",
+      "all_chr_roundtrip": "PASS 1024 tiles",
+      "expected_write_plan": "PASS",
+      "no_unregistered_diff": "PASS",
+      "protected_bytes_and_header": "PASS",
+      "rom_pixels_equal_art": "PASS",
+      "ips_apply_equals_build": "PASS"
+    },
+    "native_smoke": "PASS cold boot, one-player start/gameplay, reset/title return, Select/two-player start",
+    "all_name_renderer_roots": "PASS 7 controlled renderer roots, 8 translations, original English and other assets protected",
+    "probe_method": "CPU A injected 0..6 at native $8751; not natural all-stage progression",
+    "windows_apply": "Source, patch and output hashes are enforced by apply.ps1; extracted archive application evidence is recorded separately."
+  },
+  "limitations": [
+    "Natural first enemy encounter verified; remaining six checked by native-renderer CPU-A probes",
+    "Full playthrough, hardware, other emulators and audio listening not performed",
+    "Known introduction-label scope; no claim of exhaustive hidden-message discovery"
+  ],
+  "fonts": [
+    {
+      "name": "Galmuri7",
+      "license": "licenses/Galmuri_OFL.md",
+      "purpose": "Title player-count menu"
+    },
+    {
+      "name": "Jeju Hallasan",
+      "license": "licenses/JejuHallasan_OFL.txt",
+      "purpose": "Seven names and appearance; 17px, origin (0,-1), 16x16 cells"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
-# 재개 진입점
+# Current release handoff - v1.0
 
-최신 인계: [HANDOFF_2026-10-10.md](HANDOFF_2026-10-10.md).
+See [v1.0 release notes](releases/v1.0/RELEASE_NOTES.md), [source/build guide](SOURCE_GUIDE.md) and [Windows apply validation](releases/v1.0/apply_validation.json).
 
-현재 빌드: `title_kr_menu_003`, 작은 노란 군이 있는 로고와 1인용/2인용 메뉴.
+The known seven Japanese enemy names and appearance label use Jeju Hallasan. Non-title English remains unchanged. Full-playthrough and hardware validation are not claimed. Earlier handoffs are historical snapshots.
+
+Next action: reproduce user reports using source/result hashes, emulator version and scene details.

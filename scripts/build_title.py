@@ -5,6 +5,8 @@ from pathlib import Path
 from PIL import Image
 from nes_graphics import decode_tile,encode_tile
 from menu_assets import menu_writes
+from enemy_assets import enemy_writes
+from brush_poc_assets import brush_poc_writes
 ROOT=Path(__file__).resolve().parents[1]
 def sha(data):return hashlib.sha256(data).hexdigest()
 def make_ips(source,target):
@@ -64,10 +66,21 @@ def main():
         additional,menu_report=menu_writes(ROOT,source,cfg,slots)
         menu_ranges={owner:(offset,offset+len(data)) for offset,data,owner in additional}
         writes+=additional
+    enemy_report={};enemy_ranges={}
+    if 'enemy_path' in cfg:
+        additional,enemy_report=enemy_writes(ROOT,source,cfg)
+        enemy_ranges={owner:(offset,offset+len(data)) for offset,data,owner in additional}
+        writes+=additional
+    elif 'brush_poc_path' in cfg:
+        additional,enemy_report=brush_poc_writes(ROOT,source,cfg)
+        enemy_ranges={owner:(offset,offset+len(data)) for offset,data,owner in additional}
+        writes+=additional
     # Freeze and validate the complete plan before touching the output image.
     touched=set();plan=[]
     for offset,data,owner in writes:
-        if owner in menu_ranges:
+        if owner in enemy_ranges:
+            allowed=enemy_ranges[owner]==(offset,offset+len(data))
+        elif owner in menu_ranges:
             allowed=menu_ranges[owner]==(offset,offset+len(data))
         else:allowed=(m<=offset and offset+len(data)<=m+n) if owner=='title_logo_map' else (low<=offset and offset+len(data)<=high)
         assert allowed and not touched.intersection(range(offset,offset+len(data)))
@@ -78,7 +91,7 @@ def main():
         offset=w['offset'];data=bytes.fromhex(w['final_hex']);assert source[offset:offset+len(data)].hex()==w['expected_original_hex'];target[offset:offset+len(data)]=data
     target=bytes(target);diff={i for i,(s,t) in enumerate(zip(source,target)) if s!=t}
     assert len(source)==len(target) and diff<=touched and source[:16]==target[:16]
-    protected_ranges=[(m,m+n),(low,high)]+list(menu_ranges.values())
+    protected_ranges=[(m,m+n),(low,high)]+list(menu_ranges.values())+list(enemy_ranges.values())
     assert all(source[i]==target[i] for i in range(len(source)) if not any(start<=i<end for start,end in protected_ranges))
     # Reconstruct pixels from the final ROM, independent of the slicing used above.
     reconstructed=bytearray(184*40)
@@ -87,6 +100,15 @@ def main():
         for py in range(8):
             for px in range(8):reconstructed[((cell//23)*8+py)*184+(cell%23)*8+px]=pixels[py*8+px]
     assert bytes(reconstructed)==bytes(im.getdata()), 'Final ROM pixels differ from artwork'
+    if enemy_report:
+        for e in enemy_report['entries']:
+            pos=e['offset'];assert target[pos:pos+len(bytes.fromhex(e['encoded_hex']))].hex()==e['encoded_hex']
+        for g in enemy_report['glyphs']:
+            restored=bytearray(256)
+            for k in range(4):
+                offset=cfg['chr_base']+(g['slot']+k)*16;tile=decode_tile(target[offset:offset+16])
+                for y in range(8):restored[((k//2)*8+y)*16+(k%2)*8:((k//2)*8+y)*16+(k%2)*8+8]=tile[y*8:y*8+8]
+            assert restored.hex()==g['pixel_hex'],'Final ROM enemy pixels differ from font input'
     patch=make_ips(source,target);assert apply_ips(source,patch)==target
     out=(a.output or ROOT/'build'/build_id).resolve();out.mkdir(parents=True,exist_ok=True);rom_path=out/(basename+'.nes');rom_path.write_bytes(target)
     patch_dir=ROOT/'patches';patch_dir.mkdir(exist_ok=True);patch_path=patch_dir/(basename+'.ips');patch_path.write_bytes(patch)
@@ -94,5 +116,6 @@ def main():
     report={'schema_version':1,'build_id':build_id,'text':cfg['text'],'source_sha256':sha(source),'target_sha256':sha(target),'rom_path':str(rom_path),'size':len(target),'art_sha256':sha(art.read_bytes()),'patch_sha256':sha(patch),'patch_path':str(patch_path),'unique_nonblank_tiles':len(slots)-1,'available_tiles':last-first+1,'changed_bytes':len(diff),'write_count':len(writes),'checks':{'source_identity':'PASS','all_chr_roundtrip':'PASS 1024 tiles','expected_write_plan':'PASS','no_unregistered_diff':'PASS','protected_bytes_and_header':'PASS','rom_pixels_equal_art':'PASS','ips_apply_equals_build':'PASS'},'runtime':'Not performed by this builder; see qa evidence','scene_visual':'Not performed by this builder'}
     report['style_checks']=style_checks;report['menu']=menu_report
     report['total_title_slots_used']=len(slots)-1+len(menu_report.get('glyphs',[]))
+    if enemy_report:report['enemy']=enemy_report
     (out/'build_report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8');print(json.dumps(report,indent=2))
 if __name__=='__main__':main()

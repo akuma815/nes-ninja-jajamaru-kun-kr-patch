@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "asset_id": "title_logo",
+  "text": "닌자 자자마루군",
+  "art_path": "assets/title/title_kr_ai_002_nes.png",
+  "map_file_offset": 12671,
+  "map_size": 115,
+  "map_sha256": "e842336018cbfefaa9d1e4171d81c7d1dca9d88f5a733ec8737884ad7c06f205",
+  "chr_base": 28688,
+  "first_slot": 52,
+  "last_slot": 145,
+  "original_chr_sha256": "1fa08ecccda9afc557944054bc076fd1cd8dd617a965504aed4494a6007ea1c7",
+  "blank_slot": 48,
+  "bounds": [
+    32,
+    48,
+    184,
+    40
+  ],
+  "map_dimensions": [
+    23,
+    5
+  ],
+  "build_id": "title_kr_menu_003",
+  "generated_path": "assets/title/title_kr_ai_002_generated.png",
+  "qa_default": "qa/title_kr_menu_003/cold_boot_001",
+  "style": {
+    "prefix": "small red ninja",
+    "main": "four large blue syllables",
+    "suffix": "small yellow suffix, approximately half-height, lower-right"
+  },
+  "suffix_constraints": {
+    "region": [
+      160,
+      0,
+      24,
+      40
+    ],
+    "main_region": [
+      42,
+      0,
+      118,
+      40
+    ],
+    "min_yellow_fraction": 0.7,
+    "max_height_ratio": 0.55
+  },
+  "logo_artifact_id": "title_kr_ai_002",
+  "menu_path": "assets/menu/menu_kr.json",
+  "previous_qa": "qa/title_kr_ai_002/cold_boot_001",
+  "previous_target_sha256": "041d01147696ff064e164bfe8c36f0ab8339d691c12982b1f787808a4c345a46"
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "version": "1.0",
+  "result": "PASS",
+  "archive_sha256": "efb84dc43454abf66753d5726d694519eaaac284be34e315119579f88d7bfacb",
+  "archive_size": 19939,
+  "zip_crc_and_13_files": "PASS",
+  "embedded_hash_manifest": "PASS",
+  "rom_free_archive": "PASS",
+  "source_preserved": true,
+  "result_rom_sha256": "b7e79f8de2bc76e0e09db0b2e8041b349eb051e04b73067ea231cd0117c243f9",
+  "tests": [
+    {
+      "id": "valid_explicit_output",
+      "exit_code": 0,
+      "result": "PASS",
+      "mode": "real shipped apply.cmd -> Windows PowerShell 5.1, Korean and space-containing paths"
+    },
+    {
+      "id": "existing_output_rejected",
+      "exit_code": 1,
+      "result": "PASS",
+      "mode": "real shipped apply.cmd -> Windows PowerShell 5.1, Korean and space-containing paths"
+    },
+    {
+      "id": "original_overwrite_rejected",
+      "exit_code": 1,
+      "result": "PASS",
+      "mode": "real shipped apply.cmd -> Windows PowerShell 5.1, Korean and space-containing paths"
+    },
+    {
+      "id": "wrong_source_sha_rejected",
+      "exit_code": 1,
+      "result": "PASS",
+      "mode": "real shipped apply.cmd -> Windows PowerShell 5.1, Korean and space-containing paths"
+    },
+    {
+      "id": "wrong_patch_sha_rejected",
+      "exit_code": 1,
+      "result": "PASS",
+      "mode": "real shipped apply.cmd -> Windows PowerShell 5.1, Korean and space-containing paths"
+    },
+    {
+      "id": "drag_drop_default_output",
+      "exit_code": 0,
+      "result": "PASS",
+      "mode": "real shipped apply.cmd -> Windows PowerShell 5.1, Korean and space-containing paths"
+    }
+  ],
+  "unperformed": [
+    "Full playthrough",
+    "Hardware",
+    "Other emulators",
+    "Audio listening"
+  ]
+}

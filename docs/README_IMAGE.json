@@ -1,14 +1,20 @@
 {
-  "src": "assets/screenshots/nes-ninja-jajamaru-kun-kr-patch.png",
-  "caption": "한글 타이틀 · 메뉴 003",
-  "kind": "runtime",
-  "width": 256,
-  "height": 240,
-  "source": "Games/Ninja Jajamaru-kun/qa/title_kr_menu_003/cold_boot_001/frame_0240.png",
-  "sourceSHA256": "ddecbbb92debd5611cd3242da5fb642b22a4e0ca18b76a4bf9487a5800d6a7eb",
-  "assetSHA256": "ddecbbb92debd5611cd3242da5fb642b22a4e0ca18b76a4bf9487a5800d6a7eb",
-  "pixelSHA256": "8df72ad2df24ada28429ae999f72b234dba3b6d3267ec1ff6d2baf206bbc8534",
-  "sourceNote": "title_kr_menu_003 Mesen 콜드 부팅 캡처",
-  "readmeAsset": "img/preview.png",
-  "displayNote": "title_kr_menu_003 Mesen 콜드 부팅 캡처"
+  "version": "1.0",
+  "images": [
+    {
+      "path": "img/preview.png",
+      "kind": "natural cold boot screenshot",
+      "sha256": "ddecbbb92debd5611cd3242da5fb642b22a4e0ca18b76a4bf9487a5800d6a7eb"
+    },
+    {
+      "path": "img/appearance.png",
+      "kind": "natural first encounter screenshot",
+      "sha256": "3672c8e6de01f84057bbdf6a6a43812219aefd591e0d13bdda6ee1a688626673"
+    },
+    {
+      "path": "img/enemy_names.png",
+      "kind": "native renderer CPU-A probe capture montage; not natural all-stage progression",
+      "sha256": "cbf14225aef8d54a5de8134d2b72d0de9787e7d1fb8ed768963fd7f558dba623"
+    }
+  ]
 }

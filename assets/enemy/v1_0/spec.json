@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "source_sha256": "c44602e4605d0c60e72a13565cdf12798262bcf22e6a70319375c250fc2ac45b",
+  "scope": "Release v1.0: all seven enemy names and shared appearance; English retained",
+  "font": {
+    "path": "assets/fonts/JejuHallasan-Regular.ttf",
+    "sha256": "71d1198c27d7177ed6a178c5131daca11996f207490364550317d9666e4748e9",
+    "license_path": "assets/fonts/JejuHallasan_OFL.txt",
+    "source_url": "https://github.com/google/fonts/tree/main/ofl/jejuhallasan",
+    "size": 17,
+    "origin": [
+      0,
+      -1
+    ],
+    "cell": [
+      16,
+      16
+    ],
+    "threshold": 128,
+    "resampling": "none; direct target raster then coverage threshold",
+    "weight_operation": "none; typeface native stroke shapes",
+    "raster_mode": "coverage_threshold"
+  },
+  "chr_base": 28688,
+  "original_quad_slots": [
+    148,
+    152,
+    156,
+    160,
+    164,
+    168,
+    172,
+    176,
+    180,
+    184,
+    188,
+    192,
+    196,
+    200,
+    204,
+    208,
+    212,
+    216,
+    224,
+    228,
+    232,
+    236,
+    240,
+    244,
+    248
+  ],
+  "entries": [
+    {
+      "id": "enemy_0",
+      "source": "おゆき",
+      "ko": "오유키",
+      "offset": 2063,
+      "expected_hex": "9ca0a400",
+      "bounds": [
+        144,
+        49,
+        16,
+        48
+      ],
+      "ppu_address": 8402,
+      "status": "release",
+      "bounds_note": "Observed screenshot cell anchor is one scanline below nominal nametable coordinate; keep PPU address separate."
+    },
+    {
+      "id": "enemy_1",
+      "source": "クロベエ",
+      "ko": "쿠로베에",
+      "offset": 2067,
+      "expected_hex": "b0b4b8bc00",
+      "bounds": [
+        144,
+        49,
+        16,
+        64
+      ],
+      "ppu_address": 8402,
+      "status": "release",
+      "bounds_note": "Observed screenshot cell anchor is one scanline below nominal nametable coordinate; keep PPU address separate."
+    },
+    {
+      "id": "enemy_2",
+      "source": "カラカッサ",
+      "ko": "카라캇사",
+      "offset": 2072,
+      "expected_hex": "e094e098d800",
+      "bounds": [
+        144,
+        49,
+        16,
+        80
+      ],
+      "ppu_address": 8402,
+      "status": "release",
+      "bounds_note": "Observed screenshot cell anchor is one scanline below nominal nametable coordinate; keep PPU address separate."
+    },
+    {
+      "id": "enemy_3",
+      "source": "ヘドボン",
+      "ko": "헤도본",
+      "offset": 2078,
+      "expected_hex": "ccd0d4c400",
+      "bounds": [
+        144,
+        49,
+        16,
+        64
+      ],
+      "ppu_address": 8402,
+      "status": "release",
+      "bounds_note": "Observed screenshot cell anchor is one scanline below nominal nametable coordinate; keep PPU address separate."
+    },
+    {
+      "id": "enemy_4",
+      "source": "ピン坊",
+      "ko": "핀보",
+      "offset": 2083,
+      "expected_hex": "c0c4c800",
+      "bounds": [
+        144,
+        49,
+        16,
+        48
+      ],
+      "ppu_address": 8402,
+      "status": "release",
+      "bounds_note": "Observed screenshot cell anchor is one scanline below nominal nametable coordinate; keep PPU address separate."
+    },
+    {
+      "id": "enemy_5",
+      "source": "カクタン",
+      "ko": "카쿠탄",
+      "offset": 2087,
+      "expected_hex": "e0b0f8c400",
+      "bounds": [
+        144,
+        49,
+        16,
+        64
+      ],
+      "ppu_address": 8402,
+      "status": "release",
+      "bounds_note": "Observed screenshot cell anchor is one scanline below nominal nametable coordinate; keep PPU address separate."
+    },
+    {
+      "id": "enemy_6",
+      "source": "なまず太夫",
+      "ko": "나마즈다유",
+      "offset": 2092,
+      "expected_hex": "e4e8ecf0f400",
+      "bounds": [
+        144,
+        49,
+        16,
+        80
+      ],
+      "ppu_address": 8402,
+      "status": "release",
+      "translation_note": "Proper-name transcription; 太夫 as 다유, no vertical separator cell",
+      "bounds_note": "Observed screenshot cell anchor is one scanline below nominal nametable coordinate; keep PPU address separate."
+    },
+    {
+      "id": "appearance",
+      "source": "登場",
+      "ko": "등장",
+      "offset": 1977,
+      "expected_hex": "a8ac00",
+      "bounds": [
+        96,
+        161,
+        16,
+        32
+      ],
+      "ppu_address": 8844,
+      "status": "release",
+      "bounds_note": "Observed screenshot cell anchor is one scanline below nominal nametable coordinate; keep PPU address separate."
+    }
+  ],
+  "consumer_contract": {
+    "pointer_file_offset": 2049,
+    "pointer_expected_hex": "ff87038808880e88138817881c88",
+    "reader_cpu": 34734,
+    "draw_cpu": 34758,
+    "terminator": 0,
+    "tile_order": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "advance_ppu_bytes": 64,
+    "policy": "fixed original spans; terminate early, zero-pad unreachable tails; no pointer or machine-code changes"
+  }
+}

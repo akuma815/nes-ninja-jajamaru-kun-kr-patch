@@ -13,7 +13,12 @@ def main():
     assert src_env['exe_sha256']==dst_env['exe_sha256'] and src_env['settings_sha256']==dst_env['settings_sha256']
     assert src_env['input_sequence']==dst_env['input_sequence'] and src_env['exit_code']==dst_env['exit_code']==0
     rom=Path(dst_env['rom_path']).read_bytes();assert hashlib.sha256(rom).hexdigest()==build['target_sha256']
-    frames=[];title_count=0
+    enemy_spec_path=config.get('enemy_path',config.get('brush_poc_path'))
+    enemy_spec=json.loads((ROOT/enemy_spec_path).read_text(encoding='utf-8')) if enemy_spec_path else None
+    enemy_entries=[e for e in enemy_spec['entries'] if e['id'] in ('enemy_0','appearance')] if enemy_spec else []
+    def in_enemy(i,name):
+        return bool(enemy_spec and name=='frame_0480.png' and any(x<=i%256<x+w and y<=i//256<y+h for x,y,w,h in (e['bounds'] for e in enemy_entries)))
+    frames=[];title_count=0;enemy_count=0
     for p in sorted(a.source_qa.glob('frame_*.png')):
         q=a.target_qa/p.name;assert sha(p)==src_env['files'][p.name] and sha(q)==dst_env['files'][p.name]
         src=Image.open(p).convert('RGB');dst=Image.open(q).convert('RGB');assert src.size==dst.size==(256,240)
@@ -23,11 +28,18 @@ def main():
                 changed+=1
                 in_logo=32<=i%256<216 and 48<=i//256<88
                 in_menu='menu_path' in config and 104<=i%256<176 and (152<=i//256<160 or 168<=i//256<176)
-                if not(in_logo or in_menu):outside+=1
+                if not(in_logo or in_menu or in_enemy(i,p.name)):outside+=1
         assert outside==0, f'Unexpected pixel differences outside declared localized regions: {p.name}'
         assert (a.source_qa/(p.stem+'_oam.bin')).read_bytes()==(a.target_qa/(p.stem+'_oam.bin')).read_bytes(), 'Sprite/cursor state differs'
         ppu=(a.target_qa/(p.stem+'_ppu.bin')).read_bytes()
-        if changed:
+        name_scene=bool(enemy_spec and p.name=='frame_0480.png')
+        if name_scene:
+            enemy_count+=1;assert changed and ppu[0x1000:0x2000]==rom[0x7010:0x8010]
+            for entry in enemy_entries:
+                codes=rom[entry['offset']:].split(b'\0',1)[0];dst=entry['ppu_address']
+                for n,t in enumerate(codes):
+                    for k in range(4):assert ppu[dst+n*64+(k//2)*32+k%2]==t+k
+        elif changed:
             title_count+=1;assert ppu[0x1000:0x2000]==rom[0x7010:0x8010]
             for y in range(5):assert ppu[0x2000+(y+6)*32+4:0x2000+(y+6)*32+27]==rom[config['map_file_offset']+y*23:config['map_file_offset']+(y+1)*23]
             if 'menu_path' in config:
@@ -37,8 +49,9 @@ def main():
                     assert ppu[start:start+len(expected)]==expected
                     assert ppu[start-2:start]==bytes([config['blank_slot']])*2
                     if entry['number_tile']==2:assert ppu[start+len(expected)]==config['blank_slot']
-        frames.append({'frame':int(p.stem.split('_')[1]),'different_pixels':changed,'outside_allowed_different_pixels':outside,'source_sha256':sha(p),'target_sha256':sha(q),'comparison':'title changes confined to declared regions; runtime CHR and map equal build' if changed else 'pixel-identical full screen'})
+        frames.append({'frame':int(p.stem.split('_')[1]),'different_pixels':changed,'outside_allowed_different_pixels':outside,'source_sha256':sha(p),'target_sha256':sha(q),'comparison':('enemy name/appearance changed; ROM and PPU verified' if name_scene else 'title changes confined to declared regions; runtime CHR and map equal build') if changed else 'pixel-identical full screen'})
     assert len(frames)==12 and title_count==6
+    assert enemy_count==(1 if enemy_spec else 0)
     trace=list(csv.DictReader((a.target_qa/'prg_reads.csv').open()));reads=[r for r in trace if r['pc']=='AAC6'];assert len(reads)==115
     assert bytes(int(r['value'],16) for r in reads)==rom[config['map_file_offset']:config['map_file_offset']+115]
     if 'menu_path' in config:
@@ -57,9 +70,14 @@ def main():
             count=0
             for i,(s,t) in enumerate(zip(Image.open(p).convert('RGB').getdata(),Image.open(q).convert('RGB').getdata())):
                 if s!=t:
-                    count+=1;assert 104<=i%256<176 and (152<=i//256<160 or 168<=i//256<176), 'Previous logo or another region changed'
+                    count+=1;assert (104<=i%256<176 and (152<=i//256<160 or 168<=i//256<176) and not enemy_spec) or in_enemy(i,p.name), 'Previous logo, English text or another region changed'
             differences.append({'frame':p.stem,'changed_pixels':count})
         report['previous_build_comparison']={'sha256':config['previous_target_sha256'],'result':'PASS logo and everything outside menu label rows unchanged in all 12 captures','frames':differences}
+    if enemy_spec:
+        report['pixel_result']='PASS 12 captures; differences confined to logo, title menu and enemy0/appearance; 5 other non-title captures identical'
+        report['enemy_consumption']='PASS naturally selected enemy0 and appearance map and CHR equal final ROM'
+        report['previous_build_comparison']['result']='PASS 11 screenshots identical to menu003; only Japanese name/appearance region changed in remaining capture'
+        assert sum(bool(r['changed_pixels']) for r in differences)==1
     report['sprite_cursor_state']='PASS OAM identical to source in all 12 captures'
     (a.target_qa/'verification.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
     # A labeled comparison for review; raw screenshots remain separately preserved.
