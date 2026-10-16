@@ -4,6 +4,14 @@
 
 > **타이틀·메뉴 배포본 003**
 
+<!-- game-preview:start -->
+<p align="center">
+  <img src="img/preview.png" alt="닌자 자자마루군 — 한글 타이틀 · 메뉴 003" width="512">
+</p>
+
+**한글 타이틀 · 메뉴 003** — title_kr_menu_003 Mesen 콜드 부팅 캡처
+<!-- game-preview:end -->
+
 ## 다운로드 및 적용 방법
 
 1. 아래 체크섬 또는 상세 안내와 일치하는 원본을 준비합니다.
