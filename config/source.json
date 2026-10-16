@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "game": "Ninja Jajamaru-kun (Japan)",
+  "default_path": "original/rom/Ninja Jajamaru-kun (Japan).nes",
+  "size": 32784,
+  "sha256": "c44602e4605d0c60e72a13565cdf12798262bcf22e6a70319375c250fc2ac45b",
+  "header_hex": "4e45531a010271500000000000000000"
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "scope": "two title player-count menu items",
+  "source_sha256": "c44602e4605d0c60e72a13565cdf12798262bcf22e6a70319375c250fc2ac45b",
+  "font": {
+    "path": "assets/fonts/Galmuri7.ttf",
+    "sha256": "3882bd35066c26b0392cd4963ff9b3c151041dec34adc9d5633d137d1d9b9855",
+    "version": "2.403",
+    "license_path": "assets/fonts/Galmuri_OFL.md",
+    "source_url": "https://github.com/quiple/galmuri",
+    "size": 8,
+    "origin": [0, 0],
+    "cell": [8, 8],
+    "threshold": 128
+  },
+  "glyphs": [
+    { "text": "인", "slot": 138 },
+    { "text": "용", "slot": 139 }
+  ],
+  "entries": [
+    { "id": "title_one_player", "source": "1 PLAYER", "ko": "1인용", "number_tile": 1, "ppu_address": 8815, "bounds": [120, 152, 24, 8], "status": "development" },
+    { "id": "title_two_players", "source": "2 PLAYERS", "ko": "2인용", "number_tile": 2, "ppu_address": 8879, "bounds": [120, 168, 24, 8], "status": "development" }
+  ],
+  "table": {
+    "file_offset": 11306,
+    "expected_hex": "3019150a220e1b",
+    "tokens": ["인", "용", " ", " ", " ", " ", " "],
+    "consumed_length": 5
+  },
+  "literal_writes": [
+    { "id": "one_player_start", "offset": 11256, "expected_hex": "6d", "final_hex": "6f", "instruction_offset": 11255, "instruction_hex": "a96d" },
+    { "id": "two_player_start", "offset": 11274, "expected_hex": "ad", "final_hex": "af", "instruction_offset": 11273, "instruction_hex": "a9ad" },
+    { "id": "remove_plural_s", "offset": 11287, "expected_hex": "1c", "final_hex": "30", "instruction_offset": 11286, "instruction_hex": "a91c" },
+    { "id": "menu_read_length", "offset": 11302, "expected_hex": "07", "final_hex": "05", "instruction_offset": 11301, "instruction_hex": "e007" }
+  ]
+}

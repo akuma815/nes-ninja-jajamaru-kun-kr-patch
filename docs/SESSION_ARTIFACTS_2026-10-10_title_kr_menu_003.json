@@ -1,0 +1,2254 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-10",
+  "build_id": "title_kr_menu_003",
+  "note": "Current session snapshot; previous manifests retained. Excludes itself, Python tool dependencies, caches and portable emulator binaries.",
+  "preservation_checks": "PASS source and previous 001/002 ROM/IPS/native PNG hashes unchanged",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 68,
+      "sha256": "32d9a96acfcf95d730627cbad70d559d470467ba4244caeeb8cb284b22f07ab0"
+    },
+    {
+      "path": "AGENTS.md",
+      "size": 817,
+      "sha256": "289526ab37f8b1b094dff8a10353500935bd2a441275b5817645675664cbc6e0"
+    },
+    {
+      "path": "analysis/menu_disassembly.json",
+      "size": 2490,
+      "sha256": "6317fb8ba86d70204328a876a856d5fb3968bc6f7ecd9da09e2746b7430f66ba"
+    },
+    {
+      "path": "analysis/menu_final_disassembly.json",
+      "size": 792,
+      "sha256": "a7dee677035edc5a75e157de86948da9d69662ba6550557cc5fc3601fd84aa1e"
+    },
+    {
+      "path": "analysis/menu_font_audit.json",
+      "size": 8002,
+      "sha256": "be85209a914e08250a2b69d04a380c335ecf47a6bbf64933a32d544bf1eb3cbf"
+    },
+    {
+      "path": "analysis/menu_font_coverage.json",
+      "size": 506,
+      "sha256": "e2e2634fb256431f6f517c03c5925f13015a7f9217ba5fa8bfe0c6ca47a9e4cc"
+    },
+    {
+      "path": "analysis/menu_survey.json",
+      "size": 1153,
+      "sha256": "7ec8c14548cb3c946da17d3576ebfd5de3479511935011b4aa96e5dc40ca48e1"
+    },
+    {
+      "path": "analysis/raw/chr_all.png",
+      "size": 20447,
+      "sha256": "eeee31e2bc4ab0b3d348d38cb14f4f605c516d6b371edd6cc903f22b4c719cd4"
+    },
+    {
+      "path": "analysis/raw/menu/galmuri7_jongseong_audit.png",
+      "size": 701,
+      "sha256": "a23aa729bfceedda12734eae19ee2e65d0465d6159c43f1a919ee56e5bdcccd4"
+    },
+    {
+      "path": "analysis/raw/title_original.png",
+      "size": 1420,
+      "sha256": "c5170f79098f17569c006020354a97907c6dfdcc93dc228a31299bfb6193864d"
+    },
+    {
+      "path": "analysis/raw/title_original_indexed.png",
+      "size": 1625,
+      "sha256": "43c1e4323dfa7c0e16fe8d12bd5260ccde5bbd2159f0e75767e02f223721797a"
+    },
+    {
+      "path": "analysis/raw/title_original_reference_x6.png",
+      "size": 4065,
+      "sha256": "31be5a61fdfef3a3023e92381b576b201a51f91cdef2ee853332facfcab361b8"
+    },
+    {
+      "path": "analysis/title_survey.json",
+      "size": 2074,
+      "sha256": "6971f8237636f6fc51ee9838c37cdb52c73d805e7c09542475037572461254ad"
+    },
+    {
+      "path": "assets/fonts/Galmuri7.ttf",
+      "size": 3702440,
+      "sha256": "3882bd35066c26b0392cd4963ff9b3c151041dec34adc9d5633d137d1d9b9855"
+    },
+    {
+      "path": "assets/fonts/Galmuri_OFL.md",
+      "size": 4266,
+      "sha256": "9a9e5a342c430c3fcf01a408b680f4405d5bf4ac659c931be35f8a1b27ea69c9"
+    },
+    {
+      "path": "assets/menu/menu_glyphs.png",
+      "size": 110,
+      "sha256": "f1778ec467cfc28b3faf099014e405a9af468015c29b5ff4348b1eb6a04e886b"
+    },
+    {
+      "path": "assets/menu/menu_kr.json",
+      "size": 1731,
+      "sha256": "3dc98e631b0eb36e8715223ec8599c88c99d1ae121a6e98e64e8ad4795e6b0dc"
+    },
+    {
+      "path": "assets/title/title_kr_001.png",
+      "size": 1225,
+      "sha256": "acc91798c98f034234b7d4b49db7041a9345374960ba912912317c3a44835ba4"
+    },
+    {
+      "path": "assets/title/title_kr_ai_001_generated.png",
+      "size": 805279,
+      "sha256": "4be05500ada136bfcdd86d3a62470581e830e8353e18545858e3be183ca4c009"
+    },
+    {
+      "path": "assets/title/title_kr_ai_001_nes.png",
+      "size": 1619,
+      "sha256": "0a0b960e6fc487f6e4694d7c0d7cc1b3cfea49a19f66d5e2c90468d7c5a0cbb8"
+    },
+    {
+      "path": "assets/title/title_kr_ai_001_prompt.txt",
+      "size": 1703,
+      "sha256": "3717350dde7d999476cb01ef6af429ddd82b2d11efcf13b3db98d29f64c69da2"
+    },
+    {
+      "path": "assets/title/title_kr_ai_002_generated.png",
+      "size": 794846,
+      "sha256": "1d0ce224ab72bcd954997387b5ad053dbe8f7273280a0eb51a53e2faec2cdb9b"
+    },
+    {
+      "path": "assets/title/title_kr_ai_002_nes.png",
+      "size": 1602,
+      "sha256": "b91ffe31a5bc8589f826937c07f1cacc6827f77aa45c1a85d1e6f2788de13e2e"
+    },
+    {
+      "path": "assets/title/title_kr_ai_002_prompt.txt",
+      "size": 1554,
+      "sha256": "d411099152bd7d151a3c5ef870fc244632c377e05d7299ac73bb11e02773b300"
+    },
+    {
+      "path": "build/title_kr_001_art_preview.png",
+      "size": 1322,
+      "sha256": "a2c1f1a013be881fdd0c6f5b4b9c093cc95f573a4633128e4cf2f9075afb5ca2"
+    },
+    {
+      "path": "build/title_kr_ai_001/build_report.json",
+      "size": 1281,
+      "sha256": "b90e517522ca8ea0dccb9bd2100d443067992be4bfd04c5200947ef7f64c642d"
+    },
+    {
+      "path": "build/title_kr_ai_001/expected_writes.json",
+      "size": 25818,
+      "sha256": "c1345b81c8a546c6b28f628c03caef83f7b85766926811f251a4eb9fc43b1b3d"
+    },
+    {
+      "path": "build/title_kr_ai_001/Ninja_Jajamaru_kun_KR_title_ai_001.nes",
+      "size": 32784,
+      "sha256": "2146dd2527e0f213595c576b9194c3296d412ffbbe7177dc0c6d199fcc74491c"
+    },
+    {
+      "path": "build/title_kr_ai_001_art_preview.png",
+      "size": 3325,
+      "sha256": "b22a795ccb615da5e06f67d7b937dbd5b1d8e9bead7df415060adf9557889155"
+    },
+    {
+      "path": "build/title_kr_ai_001_conversion.json",
+      "size": 817,
+      "sha256": "d8a603bbd40af130d1179d0bdc9ba1bbb9988e6f839e74aaaaea2cb94fef769d"
+    },
+    {
+      "path": "build/title_kr_ai_001_runtime_comparison.png",
+      "size": 29527,
+      "sha256": "f72fab3ec39564da09574d8c3f3bb161f1b0368ccde5ba7db040e1965314dbd6"
+    },
+    {
+      "path": "build/title_kr_ai_002/build_report.json",
+      "size": 1548,
+      "sha256": "04f01c8b3204bccc7a0796b3fa09959500fd31a341dff6e3d3b7d1684e6e6047"
+    },
+    {
+      "path": "build/title_kr_ai_002/expected_writes.json",
+      "size": 23935,
+      "sha256": "8d6d7471176e1987f1998c9c41ecba1975164d59191bdf10a7e94e727ac1c1d4"
+    },
+    {
+      "path": "build/title_kr_ai_002/Ninja_Jajamaru_kun_KR_title_ai_002.nes",
+      "size": 32784,
+      "sha256": "041d01147696ff064e164bfe8c36f0ab8339d691c12982b1f787808a4c345a46"
+    },
+    {
+      "path": "build/title_kr_ai_002_art_preview.png",
+      "size": 3253,
+      "sha256": "672748b5cdeacc67cf365a294d51d9cc1ebfcd0a9befec4b90b192366a57ce96"
+    },
+    {
+      "path": "build/title_kr_ai_002_conversion.json",
+      "size": 817,
+      "sha256": "8398c62d1acf32c6136bc170dc32a67cac303aa27873f6dac37a1de1f369a55c"
+    },
+    {
+      "path": "build/title_kr_ai_002_runtime_comparison.png",
+      "size": 29449,
+      "sha256": "865c203cd50aafd70258310ce4ee76d9cf75a1507b3d32ea05458a2f7225b2e3"
+    },
+    {
+      "path": "build/title_kr_menu_003/build_report.json",
+      "size": 3196,
+      "sha256": "4026263c7771d614dbe3d72936f4b9cd62d42332b40831efaab0768737bc539c"
+    },
+    {
+      "path": "build/title_kr_menu_003/expected_writes.json",
+      "size": 25587,
+      "sha256": "91248e8791f9f4d31bf185e45c1bfac7827578ffcf2107b4497f7194ddc515ac"
+    },
+    {
+      "path": "build/title_kr_menu_003/Ninja_Jajamaru_kun_KR_title_menu_003.nes",
+      "size": 32784,
+      "sha256": "4e3fcb59bd689593c159744a8d350680537b6fec7b3d3b1bbbee70797cb9640f"
+    },
+    {
+      "path": "build/title_kr_menu_003_menu_glyph_preview.png",
+      "size": 329,
+      "sha256": "a1273ee74bccc57746c9f43541cde857c79ca69eafed60233bc56db544643af4"
+    },
+    {
+      "path": "build/title_kr_menu_003_runtime_comparison.png",
+      "size": 29652,
+      "sha256": "0f6effd82d6565d6be03dbeaed79ceab53077497bb9e4fd0be6ca4b4eec55250"
+    },
+    {
+      "path": "config/source.json",
+      "size": 280,
+      "sha256": "4138dbe4b40bf81d4bbea6f4e99025effe0fac070474628a30ed1fdcc46b3245"
+    },
+    {
+      "path": "config/title.json",
+      "size": 1370,
+      "sha256": "89092d375e5145360210ebe6e2031307629f515b0cb85cedfbe38ff710620621"
+    },
+    {
+      "path": "config/title_kr_ai_001.json",
+      "size": 719,
+      "sha256": "3b389f83483fa01a1a3b094a9e52f765ac682d9ba456b8cb0e5051c058218aff"
+    },
+    {
+      "path": "config/title_kr_ai_002.json",
+      "size": 1129,
+      "sha256": "c96f43488150a4df3111772a86e993362dbd8c5c4ba9c56f1c2c67a58ff94808"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "size": 5958,
+      "sha256": "fbfd17459b2f7ac351c703e51905fb28ed79cbb2185855f452ed5430614f6978"
+    },
+    {
+      "path": "docs/archive/HANDOFF_2026-10-10_before_menu003.md",
+      "size": 9375,
+      "sha256": "38c674d51f8cfe1233493a206415b0d39a7500d9f7ba7dc0b89bd0a3fb0801df"
+    },
+    {
+      "path": "docs/HANDOFF.md",
+      "size": 187,
+      "sha256": "09cc49f45eaf7b6891eaf7942101dc1960edabfa368622a2c7b99429016f0a72"
+    },
+    {
+      "path": "docs/HANDOFF_2026-10-10.md",
+      "size": 8137,
+      "sha256": "6d4ec4937f0c80e78cac2b7ddce3328c85eed6358ba9e5af69d76d71b8865df0"
+    },
+    {
+      "path": "docs/REVISION_title_kr_ai_002_2026-10-10.md",
+      "size": 5279,
+      "sha256": "1e72b10a57283255a0c805ac0846a436999900337338d267095fd14eeb5e2fc0"
+    },
+    {
+      "path": "docs/SESSION_ARTIFACTS_2026-10-10.json",
+      "size": 36840,
+      "sha256": "55842c410b8a4fd59cb0ef75102e2b6920e9b5908e7c75a2d1d94a1236c715ce"
+    },
+    {
+      "path": "docs/SESSION_ARTIFACTS_2026-10-10_title_kr_ai_002.json",
+      "size": 54127,
+      "sha256": "42f3424ea19518576829ecde9a3205511920c6e10331717327c9cddaf7e783f9"
+    },
+    {
+      "path": "Ninja Jajamaru-kun (Japan).nes",
+      "size": 32784,
+      "sha256": "c44602e4605d0c60e72a13565cdf12798262bcf22e6a70319375c250fc2ac45b"
+    },
+    {
+      "path": "original/rom/Ninja Jajamaru-kun (Japan).nes",
+      "size": 32784,
+      "sha256": "c44602e4605d0c60e72a13565cdf12798262bcf22e6a70319375c250fc2ac45b"
+    },
+    {
+      "path": "patches/Ninja_Jajamaru_kun_KR_title_ai_001.ips",
+      "size": 1791,
+      "sha256": "e18e7d1fbb77e068da3db249a6dcebaacd5a19388c1d1e74d18c73881a953be6"
+    },
+    {
+      "path": "patches/Ninja_Jajamaru_kun_KR_title_ai_002.ips",
+      "size": 1703,
+      "sha256": "e84cdbc7c06eea4cc4c3ccaaddcc85d355af853db06a2c992c23ef4d524bfe5e"
+    },
+    {
+      "path": "patches/Ninja_Jajamaru_kun_KR_title_menu_003.ips",
+      "size": 1779,
+      "sha256": "9e896178f775cc54abdb89e26bb094039b33574788fe542ad7a71cc37bc611a3"
+    },
+    {
+      "path": "qa/original/cold_boot_001/emulator/Debugger/Ninja Jajamaru-kun (Japan).cdl",
+      "size": 32777,
+      "sha256": "4670d24ccd6b349d12e65d207469775f1d8ecb14e4e2dfe7077e3571629950c2"
+    },
+    {
+      "path": "qa/original/cold_boot_001/emulator/libHarfBuzzSharp.dll",
+      "size": 1804872,
+      "sha256": "eb76238c9e8e41d44b5a5b18167c4c5b39ca5db4277af5dbe92d730f0fc14a7d"
+    },
+    {
+      "path": "qa/original/cold_boot_001/emulator/libSkiaSharp.dll",
+      "size": 9414216,
+      "sha256": "9a0d95e8caaa852c70d085af6a40a744242172ad9ea3fd6bc7599875a8a1dbcd"
+    },
+    {
+      "path": "qa/original/cold_boot_001/emulator/Mesen.exe",
+      "size": 70470144,
+      "sha256": "d2eb03c2590c648bf329f127ebcfefd70130e7690a9e2ccdba8616faea1fe96b"
+    },
+    {
+      "path": "qa/original/cold_boot_001/emulator/MesenCore.dll",
+      "size": 7143424,
+      "sha256": "65f69a7bdb25c35fdca77c9c73e71ef3e8ec233380204d94cfc0179933048c74"
+    },
+    {
+      "path": "qa/original/cold_boot_001/emulator/MesenNesDB.txt",
+      "size": 559118,
+      "sha256": "cff835b8a3d5b07d9d111382da6c49ccae150cdbaa9a0e49e15aa381af471307"
+    },
+    {
+      "path": "qa/original/cold_boot_001/emulator/Satellaview/BSX0120-0.bin",
+      "size": 34,
+      "sha256": "ba0c17b5786724959bc206714fc18f708c16fdcd77f8fb19aaf9768338e3ce01"
+    },
+    {
+      "path": "qa/original/cold_boot_001/emulator/Satellaview/BSX0121-0.bin",
+      "size": 34,
+      "sha256": "fbe51a53638dd366b50ea53adf92f54447667d7767c502e508d89b008e31c53f"
+    },
+    {
+      "path": "qa/original/cold_boot_001/emulator/Satellaview/BSX0122-0.bin",
+      "size": 1031,
+      "sha256": "a0329450e1d42cd18d30070a86e0e481a876cb5c9cfbaab4a0d8895150976ee7"
+    },
+    {
+      "path": "qa/original/cold_boot_001/emulator/Satellaview/BSX0123-0.bin",
+      "size": 16,
+      "sha256": "dbf5ef12ce586712ee666fc5805e6dfcaa1e253fdd36644f773909514868a590"
+    },
+    {
+      "path": "qa/original/cold_boot_001/emulator/Satellaview/BSX0124-0.bin",
+      "size": 97,
+      "sha256": "4d7d7bf5afe5c4f71b96965e58003816c70c13e8af9b581431504d5e52a0cec1"
+    },
+    {
+      "path": "qa/original/cold_boot_001/emulator/settings.json",
+      "size": 185,
+      "sha256": "596157e2332681c3a0ab7c75e09d6d03c9004741fd4fa191da97d000bc9f3955"
+    },
+    {
+      "path": "qa/original/cold_boot_001/environment.json",
+      "size": 8595,
+      "sha256": "773499dab40b2333474c670bde9cb896e4f908811f0734f7eca8403cfc238ee6"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0060.png",
+      "size": 2757,
+      "sha256": "a4d5a8d5612d3b65a737a76e04f492df3168592665192dddb826248c6777b596"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0060_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0060_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0060_ppu.bin",
+      "size": 16384,
+      "sha256": "0dff1d24a7310837a9d8c33f7eb590c8646e3402f0aefe0e2c4afa890210c2f5"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0060_ram.bin",
+      "size": 2048,
+      "sha256": "1a593e766d9938196fd201dc8cbe8337974c2388e163f50b0ba8313d73ace38f"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0060_state.txt",
+      "size": 8670,
+      "sha256": "37b9028e61a5eaf3fe8217b2e828dfee65db0e8fa97da3683100375d6eaea7ac"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0120.png",
+      "size": 2757,
+      "sha256": "a4d5a8d5612d3b65a737a76e04f492df3168592665192dddb826248c6777b596"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0120_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0120_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0120_ppu.bin",
+      "size": 16384,
+      "sha256": "0f41351b7e8b785a16adb7dbacae855faec8ee1474190414d4db1094942ded3d"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0120_ram.bin",
+      "size": 2048,
+      "sha256": "f7d9f7f45fdc447b62a23dc2116f65bf27b0f8cb1f7aa636dacf489b64706ad1"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0120_state.txt",
+      "size": 8678,
+      "sha256": "949de0c0d205b2176fcd405a0c8c8ea261d8c36a5a3ba07135d72d0ac15b5ed9"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0240.png",
+      "size": 2757,
+      "sha256": "a4d5a8d5612d3b65a737a76e04f492df3168592665192dddb826248c6777b596"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0240_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0240_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0240_ppu.bin",
+      "size": 16384,
+      "sha256": "3621f9879d7b9c4f53eae308b2983d0ed1126884ca207eed5ea66d9897402ab3"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0240_ram.bin",
+      "size": 2048,
+      "sha256": "8729d4f6329374c8a9254f6e9aaea5b52038a92e68ac7a5ab437915aa2b21233"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0240_state.txt",
+      "size": 8673,
+      "sha256": "caff48ee0332c3446198661f25b615d4714a9aa291b11fe5d4c589a6a53d038c"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0360.png",
+      "size": 1172,
+      "sha256": "c6e36b74815e8dda8dbaf1891ccdc0b3658ffd19453fde7cd41095d5f0bcccfd"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0360_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0360_oam.bin",
+      "size": 256,
+      "sha256": "9424bead16ed0ebf5134f8aabdf462ad5535042569808a9f6c44477e91ff627a"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0360_ppu.bin",
+      "size": 16384,
+      "sha256": "10ab2d2add5585d39e5119da4d76e1d80a12a7082c572a8c8b1db9d4860495f0"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0360_ram.bin",
+      "size": 2048,
+      "sha256": "1c6be0809c823aa6f51b1b788def6471fdd9ed5016dfdfc806896eb497bfa7fc"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0360_state.txt",
+      "size": 8637,
+      "sha256": "2cbae7eacd1675ef5b62c08f97c6aca8282532ce46b8d57874a248407dfaa954"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0480.png",
+      "size": 635,
+      "sha256": "cf36b42eb8cd5743f51d836a8de0bc068a69d99387d41573a999b49263482ec8"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0480_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0480_oam.bin",
+      "size": 256,
+      "sha256": "f1c70ea5a9e9b875498d27f412bcf7105871f96002b7e43afb4c0b5f833e7667"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0480_ppu.bin",
+      "size": 16384,
+      "sha256": "ac8ebff16242e0c045f6a4e298cc482a13f376e0f97d46e809732f2af95d5fb0"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0480_ram.bin",
+      "size": 2048,
+      "sha256": "7867c427fb02cd27eeb7002a4369912ca709658e19880ec0d5f01a0a5a945228"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0480_state.txt",
+      "size": 8672,
+      "sha256": "41e7461c8ba9449706e46cdf876254c529cfa3d23569d43435ded457abf3cce6"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0600.png",
+      "size": 3814,
+      "sha256": "34631a8fb0bbc518ffc6a104f58c6e8a54ba56815f7a99aa71b31f2cf92e7c2b"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0600_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0600_oam.bin",
+      "size": 256,
+      "sha256": "121bfe574dae2b8847e7771dd09c4eabf9f201c7d6b99540c2f6c4088b99dad5"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0600_ppu.bin",
+      "size": 16384,
+      "sha256": "55bdf60498dc5c4f7500a8671843627477bffefc6b2306169ef371d5da11f8d6"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0600_ram.bin",
+      "size": 2048,
+      "sha256": "314441cfae3ed61a132e77cfd7d492139b6f59f269ec76162502a00d4bb558f6"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0600_state.txt",
+      "size": 8644,
+      "sha256": "6d52087c6bff0e20c83e72a4f9f5969cb462bcec5d1f8c06683f3c085ca8a93d"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0720.png",
+      "size": 3980,
+      "sha256": "787f97ed9b130b1f53ce99a5bf68bcdcdb0ebe7aa6438fc0b51ed02c16e5c801"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0720_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0720_oam.bin",
+      "size": 256,
+      "sha256": "6231b466ed44a16f42667cd004fa43a72986fe70ae2e1604c2e3f8b8dbc5fd02"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0720_ppu.bin",
+      "size": 16384,
+      "sha256": "55bdf60498dc5c4f7500a8671843627477bffefc6b2306169ef371d5da11f8d6"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0720_ram.bin",
+      "size": 2048,
+      "sha256": "c008ee0b1ab6998222b5c7408e7dec1cd2b742fb34036ac9330c9a95ff127569"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0720_state.txt",
+      "size": 8649,
+      "sha256": "794407d259f9a2b1663adf89d6b7b9e94ae1e51f0d5ac98fe20cbb34a25997e1"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0840.png",
+      "size": 2757,
+      "sha256": "a4d5a8d5612d3b65a737a76e04f492df3168592665192dddb826248c6777b596"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0840_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0840_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0840_ppu.bin",
+      "size": 16384,
+      "sha256": "df3418e980a5468de0806d3f9d9842c20a09ef464ebebb5afd480eda0255436f"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0840_ram.bin",
+      "size": 2048,
+      "sha256": "382c6430015299329425d877e033d4348121f58cce3350af9b95ef58f33fea8b"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0840_state.txt",
+      "size": 8672,
+      "sha256": "ff6bb27a26cc06937b99e1cb3ab600fed1a14f1f8bd37e9820ee800c7b4abc33"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0900.png",
+      "size": 2757,
+      "sha256": "a4d5a8d5612d3b65a737a76e04f492df3168592665192dddb826248c6777b596"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0900_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0900_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0900_ppu.bin",
+      "size": 16384,
+      "sha256": "3621f9879d7b9c4f53eae308b2983d0ed1126884ca207eed5ea66d9897402ab3"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0900_ram.bin",
+      "size": 2048,
+      "sha256": "be461c32d89da6d61745a42c705ade9c2ab935949454ae8c4caeab08238baa41"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0900_state.txt",
+      "size": 8670,
+      "sha256": "f1b6e3bd0ac5f57b3d938ad056d04e5f7f26613703101cbd69e90c14c7d1b1de"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0960.png",
+      "size": 2755,
+      "sha256": "abfc381617dc7c6d7f3e7550b675ace837505c84b709dcc941f860b2b6a32bec"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0960_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0960_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0960_ppu.bin",
+      "size": 16384,
+      "sha256": "1b02ecf23b34639039b9768ef4daddab34b8e37e760720b1253cf32fc48e0af4"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0960_ram.bin",
+      "size": 2048,
+      "sha256": "443e0c361d8ad4df6252ecfc69a6af9e8f2c5a47efcb151739579d1a584e6283"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_0960_state.txt",
+      "size": 8666,
+      "sha256": "64079b2ad8f42d1329db8e46d8bb576e77ca8198398ba9c81c9e9e7e0992b6e4"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_1020.png",
+      "size": 1172,
+      "sha256": "05adb1f08e38bb52a73bebf8aa61a91aeabbb481be52b1c1afffb76926b4debd"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_1020_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_1020_oam.bin",
+      "size": 256,
+      "sha256": "9424bead16ed0ebf5134f8aabdf462ad5535042569808a9f6c44477e91ff627a"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_1020_ppu.bin",
+      "size": 16384,
+      "sha256": "10ab2d2add5585d39e5119da4d76e1d80a12a7082c572a8c8b1db9d4860495f0"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_1020_ram.bin",
+      "size": 2048,
+      "sha256": "ab5f59b0e1c5c634c7baca2476fbe73a0746960577b04a912470995cbf11bddd"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_1020_state.txt",
+      "size": 8641,
+      "sha256": "c4594599044210af610d48c583b5bb3653212c9689e7f6b88aba919e7e601c21"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_1140.png",
+      "size": 1172,
+      "sha256": "f09b1cd46dcf65526bb4537fc50d8e10afe9e28e615124265de9b11af99e4e0d"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_1140_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_1140_oam.bin",
+      "size": 256,
+      "sha256": "9424bead16ed0ebf5134f8aabdf462ad5535042569808a9f6c44477e91ff627a"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_1140_ppu.bin",
+      "size": 16384,
+      "sha256": "627283693436a9685570caa9f0e56014b9d30aae1e92fb85dbe3d38945d921b5"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_1140_ram.bin",
+      "size": 2048,
+      "sha256": "ff80f65b0feab0a5d1011036019fee5fa702f2bdb955b50a1c5deb2b4b3969a8"
+    },
+    {
+      "path": "qa/original/cold_boot_001/frame_1140_state.txt",
+      "size": 8637,
+      "sha256": "9cb51c5ea6e18c410f1d54a7fea1a5925bbf106b541545d0dea8cffb0804e3e0"
+    },
+    {
+      "path": "qa/original/cold_boot_001/prg_reads.csv",
+      "size": 11290959,
+      "sha256": "3523b76e92e77edb9cdb47f0c54842123b4f2d5a0df02047c92df93b48605fbb"
+    },
+    {
+      "path": "qa/original/cold_boot_001/stderr.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "qa/original/cold_boot_001/stdout.txt",
+      "size": 1275,
+      "sha256": "6f6411e0244eb86904dbe8d6691d39b33d055437c82a33fcc72cb85db7e56cda"
+    },
+    {
+      "path": "qa/static_input_rejection/stderr.txt",
+      "size": 653,
+      "sha256": "d96325242e57945ea034a35ff94f7d53e9de7e5a9d1b8ace44d23e85d433d722"
+    },
+    {
+      "path": "qa/static_input_rejection/stdout.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "qa/static_input_rejection/verification.json",
+      "size": 327,
+      "sha256": "4b9690cfcc2f71cb4935621f94a19a350eb926f5fb5337449eda3d2c99ed95ec"
+    },
+    {
+      "path": "qa/static_input_rejection/wrong_revision.nes",
+      "size": 32784,
+      "sha256": "3e083530fe7612dc028677b585e77f21f54e2739882c13adbc5cd46a23a78929"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_001/emulator/libHarfBuzzSharp.dll",
+      "size": 1804872,
+      "sha256": "eb76238c9e8e41d44b5a5b18167c4c5b39ca5db4277af5dbe92d730f0fc14a7d"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_001/emulator/libSkiaSharp.dll",
+      "size": 9414216,
+      "sha256": "9a0d95e8caaa852c70d085af6a40a744242172ad9ea3fd6bc7599875a8a1dbcd"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_001/emulator/Mesen.exe",
+      "size": 70470144,
+      "sha256": "d2eb03c2590c648bf329f127ebcfefd70130e7690a9e2ccdba8616faea1fe96b"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_001/emulator/MesenCore.dll",
+      "size": 7143424,
+      "sha256": "65f69a7bdb25c35fdca77c9c73e71ef3e8ec233380204d94cfc0179933048c74"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_001/emulator/MesenNesDB.txt",
+      "size": 559118,
+      "sha256": "cff835b8a3d5b07d9d111382da6c49ccae150cdbaa9a0e49e15aa381af471307"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_001/emulator/Satellaview/BSX0120-0.bin",
+      "size": 34,
+      "sha256": "ba0c17b5786724959bc206714fc18f708c16fdcd77f8fb19aaf9768338e3ce01"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_001/emulator/Satellaview/BSX0121-0.bin",
+      "size": 34,
+      "sha256": "fbe51a53638dd366b50ea53adf92f54447667d7767c502e508d89b008e31c53f"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_001/emulator/Satellaview/BSX0122-0.bin",
+      "size": 1031,
+      "sha256": "a0329450e1d42cd18d30070a86e0e481a876cb5c9cfbaab4a0d8895150976ee7"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_001/emulator/Satellaview/BSX0123-0.bin",
+      "size": 16,
+      "sha256": "dbf5ef12ce586712ee666fc5805e6dfcaa1e253fdd36644f773909514868a590"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_001/emulator/Satellaview/BSX0124-0.bin",
+      "size": 97,
+      "sha256": "4d7d7bf5afe5c4f71b96965e58003816c70c13e8af9b581431504d5e52a0cec1"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_001/emulator/settings.json",
+      "size": 185,
+      "sha256": "596157e2332681c3a0ab7c75e09d6d03c9004741fd4fa191da97d000bc9f3955"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_001/FAILED.txt",
+      "size": 384,
+      "sha256": "30c2ba18b1f5258fe52726e663b22e44e0d21a7eac69f86e3d5b76b38343bf78"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_001/stderr.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_001/stdout.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/emulator/Debugger/Ninja_Jajamaru_kun_KR_title_ai_001.cdl",
+      "size": 32777,
+      "sha256": "07ebc67473e843ee7684d57d8ae64a5793d13a99fe0fd39bc2418afe8a9e4e42"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/emulator/libHarfBuzzSharp.dll",
+      "size": 1804872,
+      "sha256": "eb76238c9e8e41d44b5a5b18167c4c5b39ca5db4277af5dbe92d730f0fc14a7d"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/emulator/libSkiaSharp.dll",
+      "size": 9414216,
+      "sha256": "9a0d95e8caaa852c70d085af6a40a744242172ad9ea3fd6bc7599875a8a1dbcd"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/emulator/Mesen.exe",
+      "size": 70470144,
+      "sha256": "d2eb03c2590c648bf329f127ebcfefd70130e7690a9e2ccdba8616faea1fe96b"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/emulator/MesenCore.dll",
+      "size": 7143424,
+      "sha256": "65f69a7bdb25c35fdca77c9c73e71ef3e8ec233380204d94cfc0179933048c74"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/emulator/MesenNesDB.txt",
+      "size": 559118,
+      "sha256": "cff835b8a3d5b07d9d111382da6c49ccae150cdbaa9a0e49e15aa381af471307"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/emulator/Satellaview/BSX0120-0.bin",
+      "size": 34,
+      "sha256": "ba0c17b5786724959bc206714fc18f708c16fdcd77f8fb19aaf9768338e3ce01"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/emulator/Satellaview/BSX0121-0.bin",
+      "size": 34,
+      "sha256": "fbe51a53638dd366b50ea53adf92f54447667d7767c502e508d89b008e31c53f"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/emulator/Satellaview/BSX0122-0.bin",
+      "size": 1031,
+      "sha256": "a0329450e1d42cd18d30070a86e0e481a876cb5c9cfbaab4a0d8895150976ee7"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/emulator/Satellaview/BSX0123-0.bin",
+      "size": 16,
+      "sha256": "dbf5ef12ce586712ee666fc5805e6dfcaa1e253fdd36644f773909514868a590"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/emulator/Satellaview/BSX0124-0.bin",
+      "size": 97,
+      "sha256": "4d7d7bf5afe5c4f71b96965e58003816c70c13e8af9b581431504d5e52a0cec1"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/emulator/settings.json",
+      "size": 185,
+      "sha256": "596157e2332681c3a0ab7c75e09d6d03c9004741fd4fa191da97d000bc9f3955"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/environment.json",
+      "size": 8636,
+      "sha256": "ccb68eaaf7d0f2dded5af3905e40bd5f09df770b3ef49f0fd75be67672286e1a"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0060.png",
+      "size": 2744,
+      "sha256": "1c4fd98d917bf1bfc3c16aeb4933f4bf78d65ca5b6bc2c05cfdb05e0798be46f"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0060_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0060_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0060_ppu.bin",
+      "size": 16384,
+      "sha256": "d461e094a8424925b53f4dff69f876b66d1d5d5b4d00fa7b5e0f2a034d1e2336"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0060_ram.bin",
+      "size": 2048,
+      "sha256": "1a593e766d9938196fd201dc8cbe8337974c2388e163f50b0ba8313d73ace38f"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0060_state.txt",
+      "size": 8670,
+      "sha256": "37b9028e61a5eaf3fe8217b2e828dfee65db0e8fa97da3683100375d6eaea7ac"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0120.png",
+      "size": 2744,
+      "sha256": "1c4fd98d917bf1bfc3c16aeb4933f4bf78d65ca5b6bc2c05cfdb05e0798be46f"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0120_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0120_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0120_ppu.bin",
+      "size": 16384,
+      "sha256": "64c54dfecd08a5e66cad1643edf035379c36620b8024ffa2b8d2a4809f5c2330"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0120_ram.bin",
+      "size": 2048,
+      "sha256": "f7d9f7f45fdc447b62a23dc2116f65bf27b0f8cb1f7aa636dacf489b64706ad1"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0120_state.txt",
+      "size": 8678,
+      "sha256": "949de0c0d205b2176fcd405a0c8c8ea261d8c36a5a3ba07135d72d0ac15b5ed9"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0240.png",
+      "size": 2744,
+      "sha256": "1c4fd98d917bf1bfc3c16aeb4933f4bf78d65ca5b6bc2c05cfdb05e0798be46f"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0240_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0240_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0240_ppu.bin",
+      "size": 16384,
+      "sha256": "638cbb8a0b24a1b04d780cd4a96d1af6c3902078b1291ab7b07d22426879cde2"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0240_ram.bin",
+      "size": 2048,
+      "sha256": "8729d4f6329374c8a9254f6e9aaea5b52038a92e68ac7a5ab437915aa2b21233"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0240_state.txt",
+      "size": 8673,
+      "sha256": "caff48ee0332c3446198661f25b615d4714a9aa291b11fe5d4c589a6a53d038c"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0360.png",
+      "size": 1172,
+      "sha256": "c6e36b74815e8dda8dbaf1891ccdc0b3658ffd19453fde7cd41095d5f0bcccfd"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0360_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0360_oam.bin",
+      "size": 256,
+      "sha256": "9424bead16ed0ebf5134f8aabdf462ad5535042569808a9f6c44477e91ff627a"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0360_ppu.bin",
+      "size": 16384,
+      "sha256": "10ab2d2add5585d39e5119da4d76e1d80a12a7082c572a8c8b1db9d4860495f0"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0360_ram.bin",
+      "size": 2048,
+      "sha256": "1c6be0809c823aa6f51b1b788def6471fdd9ed5016dfdfc806896eb497bfa7fc"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0360_state.txt",
+      "size": 8637,
+      "sha256": "2cbae7eacd1675ef5b62c08f97c6aca8282532ce46b8d57874a248407dfaa954"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0480.png",
+      "size": 635,
+      "sha256": "cf36b42eb8cd5743f51d836a8de0bc068a69d99387d41573a999b49263482ec8"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0480_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0480_oam.bin",
+      "size": 256,
+      "sha256": "f1c70ea5a9e9b875498d27f412bcf7105871f96002b7e43afb4c0b5f833e7667"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0480_ppu.bin",
+      "size": 16384,
+      "sha256": "c898fcb624cd90a8932adab8c90bbe28cc68418a883412e1dc4575196a95d9a1"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0480_ram.bin",
+      "size": 2048,
+      "sha256": "7867c427fb02cd27eeb7002a4369912ca709658e19880ec0d5f01a0a5a945228"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0480_state.txt",
+      "size": 8672,
+      "sha256": "41e7461c8ba9449706e46cdf876254c529cfa3d23569d43435ded457abf3cce6"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0600.png",
+      "size": 3814,
+      "sha256": "34631a8fb0bbc518ffc6a104f58c6e8a54ba56815f7a99aa71b31f2cf92e7c2b"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0600_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0600_oam.bin",
+      "size": 256,
+      "sha256": "121bfe574dae2b8847e7771dd09c4eabf9f201c7d6b99540c2f6c4088b99dad5"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0600_ppu.bin",
+      "size": 16384,
+      "sha256": "55bdf60498dc5c4f7500a8671843627477bffefc6b2306169ef371d5da11f8d6"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0600_ram.bin",
+      "size": 2048,
+      "sha256": "314441cfae3ed61a132e77cfd7d492139b6f59f269ec76162502a00d4bb558f6"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0600_state.txt",
+      "size": 8644,
+      "sha256": "6d52087c6bff0e20c83e72a4f9f5969cb462bcec5d1f8c06683f3c085ca8a93d"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0720.png",
+      "size": 3980,
+      "sha256": "787f97ed9b130b1f53ce99a5bf68bcdcdb0ebe7aa6438fc0b51ed02c16e5c801"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0720_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0720_oam.bin",
+      "size": 256,
+      "sha256": "6231b466ed44a16f42667cd004fa43a72986fe70ae2e1604c2e3f8b8dbc5fd02"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0720_ppu.bin",
+      "size": 16384,
+      "sha256": "55bdf60498dc5c4f7500a8671843627477bffefc6b2306169ef371d5da11f8d6"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0720_ram.bin",
+      "size": 2048,
+      "sha256": "c008ee0b1ab6998222b5c7408e7dec1cd2b742fb34036ac9330c9a95ff127569"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0720_state.txt",
+      "size": 8649,
+      "sha256": "794407d259f9a2b1663adf89d6b7b9e94ae1e51f0d5ac98fe20cbb34a25997e1"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0840.png",
+      "size": 2744,
+      "sha256": "1c4fd98d917bf1bfc3c16aeb4933f4bf78d65ca5b6bc2c05cfdb05e0798be46f"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0840_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0840_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0840_ppu.bin",
+      "size": 16384,
+      "sha256": "409e8ff406deb052a7703ed66d3248e3ef96362666b316aba8eb93ae30c9e486"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0840_ram.bin",
+      "size": 2048,
+      "sha256": "382c6430015299329425d877e033d4348121f58cce3350af9b95ef58f33fea8b"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0840_state.txt",
+      "size": 8672,
+      "sha256": "ff6bb27a26cc06937b99e1cb3ab600fed1a14f1f8bd37e9820ee800c7b4abc33"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0900.png",
+      "size": 2744,
+      "sha256": "1c4fd98d917bf1bfc3c16aeb4933f4bf78d65ca5b6bc2c05cfdb05e0798be46f"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0900_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0900_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0900_ppu.bin",
+      "size": 16384,
+      "sha256": "638cbb8a0b24a1b04d780cd4a96d1af6c3902078b1291ab7b07d22426879cde2"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0900_ram.bin",
+      "size": 2048,
+      "sha256": "be461c32d89da6d61745a42c705ade9c2ab935949454ae8c4caeab08238baa41"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0900_state.txt",
+      "size": 8670,
+      "sha256": "f1b6e3bd0ac5f57b3d938ad056d04e5f7f26613703101cbd69e90c14c7d1b1de"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0960.png",
+      "size": 2742,
+      "sha256": "54656389248a68b1d3f096633998cbbb12e305ef3fae8e6eb2b4ca062c35f154"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0960_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0960_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0960_ppu.bin",
+      "size": 16384,
+      "sha256": "f7e0e5b49a4fcf6f854580aa19b3daa3ff23e7959d33ea9e4ce8b235a5d851d7"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0960_ram.bin",
+      "size": 2048,
+      "sha256": "443e0c361d8ad4df6252ecfc69a6af9e8f2c5a47efcb151739579d1a584e6283"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_0960_state.txt",
+      "size": 8666,
+      "sha256": "64079b2ad8f42d1329db8e46d8bb576e77ca8198398ba9c81c9e9e7e0992b6e4"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_1020.png",
+      "size": 1172,
+      "sha256": "05adb1f08e38bb52a73bebf8aa61a91aeabbb481be52b1c1afffb76926b4debd"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_1020_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_1020_oam.bin",
+      "size": 256,
+      "sha256": "9424bead16ed0ebf5134f8aabdf462ad5535042569808a9f6c44477e91ff627a"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_1020_ppu.bin",
+      "size": 16384,
+      "sha256": "10ab2d2add5585d39e5119da4d76e1d80a12a7082c572a8c8b1db9d4860495f0"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_1020_ram.bin",
+      "size": 2048,
+      "sha256": "ab5f59b0e1c5c634c7baca2476fbe73a0746960577b04a912470995cbf11bddd"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_1020_state.txt",
+      "size": 8641,
+      "sha256": "c4594599044210af610d48c583b5bb3653212c9689e7f6b88aba919e7e601c21"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_1140.png",
+      "size": 1172,
+      "sha256": "f09b1cd46dcf65526bb4537fc50d8e10afe9e28e615124265de9b11af99e4e0d"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_1140_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_1140_oam.bin",
+      "size": 256,
+      "sha256": "9424bead16ed0ebf5134f8aabdf462ad5535042569808a9f6c44477e91ff627a"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_1140_ppu.bin",
+      "size": 16384,
+      "sha256": "627283693436a9685570caa9f0e56014b9d30aae1e92fb85dbe3d38945d921b5"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_1140_ram.bin",
+      "size": 2048,
+      "sha256": "ff80f65b0feab0a5d1011036019fee5fa702f2bdb955b50a1c5deb2b4b3969a8"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/frame_1140_state.txt",
+      "size": 8637,
+      "sha256": "9cb51c5ea6e18c410f1d54a7fea1a5925bbf106b541545d0dea8cffb0804e3e0"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/prg_reads.csv",
+      "size": 2334,
+      "sha256": "215c09fa828ab3f568ee835d783cf183dc2b94110422f5c101f0e3420204a252"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/stderr.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/stdout.txt",
+      "size": 1070,
+      "sha256": "7fdaf3db946524adcdb81f87f1794d44b396bf80928d5b6ac5dd00ec94cebf6c"
+    },
+    {
+      "path": "qa/title_kr_ai_001/cold_boot_002/verification.json",
+      "size": 5408,
+      "sha256": "def89a0b2fca6f0bd4a92d3053aef3b442b63879b46f3ff4a63c8800996c565c"
+    },
+    {
+      "path": "qa/title_kr_ai_001/VISUAL_REVIEW.md",
+      "size": 1193,
+      "sha256": "28628090f94bb0c307873850fb2f6575983cc80caff2c1976ed621766270d5ea"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/emulator/Debugger/Ninja_Jajamaru_kun_KR_title_ai_002.cdl",
+      "size": 32777,
+      "sha256": "d07b6c576d91f1118f5c1b327aef06e0c694bc7b4a03fe58ff2d05ef0f47ab38"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/emulator/libHarfBuzzSharp.dll",
+      "size": 1804872,
+      "sha256": "eb76238c9e8e41d44b5a5b18167c4c5b39ca5db4277af5dbe92d730f0fc14a7d"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/emulator/libSkiaSharp.dll",
+      "size": 9414216,
+      "sha256": "9a0d95e8caaa852c70d085af6a40a744242172ad9ea3fd6bc7599875a8a1dbcd"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/emulator/Mesen.exe",
+      "size": 70470144,
+      "sha256": "d2eb03c2590c648bf329f127ebcfefd70130e7690a9e2ccdba8616faea1fe96b"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/emulator/MesenCore.dll",
+      "size": 7143424,
+      "sha256": "65f69a7bdb25c35fdca77c9c73e71ef3e8ec233380204d94cfc0179933048c74"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/emulator/MesenNesDB.txt",
+      "size": 559118,
+      "sha256": "cff835b8a3d5b07d9d111382da6c49ccae150cdbaa9a0e49e15aa381af471307"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/emulator/Satellaview/BSX0120-0.bin",
+      "size": 34,
+      "sha256": "ba0c17b5786724959bc206714fc18f708c16fdcd77f8fb19aaf9768338e3ce01"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/emulator/Satellaview/BSX0121-0.bin",
+      "size": 34,
+      "sha256": "fbe51a53638dd366b50ea53adf92f54447667d7767c502e508d89b008e31c53f"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/emulator/Satellaview/BSX0122-0.bin",
+      "size": 1031,
+      "sha256": "a0329450e1d42cd18d30070a86e0e481a876cb5c9cfbaab4a0d8895150976ee7"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/emulator/Satellaview/BSX0123-0.bin",
+      "size": 16,
+      "sha256": "dbf5ef12ce586712ee666fc5805e6dfcaa1e253fdd36644f773909514868a590"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/emulator/Satellaview/BSX0124-0.bin",
+      "size": 97,
+      "sha256": "4d7d7bf5afe5c4f71b96965e58003816c70c13e8af9b581431504d5e52a0cec1"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/emulator/settings.json",
+      "size": 185,
+      "sha256": "596157e2332681c3a0ab7c75e09d6d03c9004741fd4fa191da97d000bc9f3955"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/environment.json",
+      "size": 8636,
+      "sha256": "d0af9bc2d5570fefe3dfc3098b30834560357002dc6d66483c8601a8f46606ca"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0060.png",
+      "size": 2716,
+      "sha256": "7314baafedbf69379df779161c303173e723fda085a126ab8fcb60ba3b9b5f13"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0060_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0060_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0060_ppu.bin",
+      "size": 16384,
+      "sha256": "ad222c5dd4678891b1aafd5192a99dac55343d76b8d67b489d0e85b3991a616a"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0060_ram.bin",
+      "size": 2048,
+      "sha256": "1a593e766d9938196fd201dc8cbe8337974c2388e163f50b0ba8313d73ace38f"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0060_state.txt",
+      "size": 8670,
+      "sha256": "37b9028e61a5eaf3fe8217b2e828dfee65db0e8fa97da3683100375d6eaea7ac"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0120.png",
+      "size": 2716,
+      "sha256": "7314baafedbf69379df779161c303173e723fda085a126ab8fcb60ba3b9b5f13"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0120_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0120_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0120_ppu.bin",
+      "size": 16384,
+      "sha256": "83dd445b3e33384fa8d90397f90c7ba691b5e58a03dba703311a9068650892aa"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0120_ram.bin",
+      "size": 2048,
+      "sha256": "f7d9f7f45fdc447b62a23dc2116f65bf27b0f8cb1f7aa636dacf489b64706ad1"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0120_state.txt",
+      "size": 8678,
+      "sha256": "949de0c0d205b2176fcd405a0c8c8ea261d8c36a5a3ba07135d72d0ac15b5ed9"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0240.png",
+      "size": 2716,
+      "sha256": "7314baafedbf69379df779161c303173e723fda085a126ab8fcb60ba3b9b5f13"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0240_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0240_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0240_ppu.bin",
+      "size": 16384,
+      "sha256": "85f678cd590c750a39dbbcb7ec525e9b1932524e00cdf48e70020d9ebd235632"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0240_ram.bin",
+      "size": 2048,
+      "sha256": "8729d4f6329374c8a9254f6e9aaea5b52038a92e68ac7a5ab437915aa2b21233"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0240_state.txt",
+      "size": 8673,
+      "sha256": "caff48ee0332c3446198661f25b615d4714a9aa291b11fe5d4c589a6a53d038c"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0360.png",
+      "size": 1172,
+      "sha256": "c6e36b74815e8dda8dbaf1891ccdc0b3658ffd19453fde7cd41095d5f0bcccfd"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0360_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0360_oam.bin",
+      "size": 256,
+      "sha256": "9424bead16ed0ebf5134f8aabdf462ad5535042569808a9f6c44477e91ff627a"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0360_ppu.bin",
+      "size": 16384,
+      "sha256": "10ab2d2add5585d39e5119da4d76e1d80a12a7082c572a8c8b1db9d4860495f0"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0360_ram.bin",
+      "size": 2048,
+      "sha256": "1c6be0809c823aa6f51b1b788def6471fdd9ed5016dfdfc806896eb497bfa7fc"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0360_state.txt",
+      "size": 8637,
+      "sha256": "2cbae7eacd1675ef5b62c08f97c6aca8282532ce46b8d57874a248407dfaa954"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0480.png",
+      "size": 635,
+      "sha256": "cf36b42eb8cd5743f51d836a8de0bc068a69d99387d41573a999b49263482ec8"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0480_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0480_oam.bin",
+      "size": 256,
+      "sha256": "f1c70ea5a9e9b875498d27f412bcf7105871f96002b7e43afb4c0b5f833e7667"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0480_ppu.bin",
+      "size": 16384,
+      "sha256": "56c3f935c093e7216ffc5007be9f0022cc6a6bc95115280f886b584517182cee"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0480_ram.bin",
+      "size": 2048,
+      "sha256": "7867c427fb02cd27eeb7002a4369912ca709658e19880ec0d5f01a0a5a945228"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0480_state.txt",
+      "size": 8672,
+      "sha256": "41e7461c8ba9449706e46cdf876254c529cfa3d23569d43435ded457abf3cce6"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0600.png",
+      "size": 3814,
+      "sha256": "34631a8fb0bbc518ffc6a104f58c6e8a54ba56815f7a99aa71b31f2cf92e7c2b"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0600_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0600_oam.bin",
+      "size": 256,
+      "sha256": "121bfe574dae2b8847e7771dd09c4eabf9f201c7d6b99540c2f6c4088b99dad5"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0600_ppu.bin",
+      "size": 16384,
+      "sha256": "55bdf60498dc5c4f7500a8671843627477bffefc6b2306169ef371d5da11f8d6"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0600_ram.bin",
+      "size": 2048,
+      "sha256": "314441cfae3ed61a132e77cfd7d492139b6f59f269ec76162502a00d4bb558f6"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0600_state.txt",
+      "size": 8644,
+      "sha256": "6d52087c6bff0e20c83e72a4f9f5969cb462bcec5d1f8c06683f3c085ca8a93d"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0720.png",
+      "size": 3980,
+      "sha256": "787f97ed9b130b1f53ce99a5bf68bcdcdb0ebe7aa6438fc0b51ed02c16e5c801"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0720_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0720_oam.bin",
+      "size": 256,
+      "sha256": "6231b466ed44a16f42667cd004fa43a72986fe70ae2e1604c2e3f8b8dbc5fd02"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0720_ppu.bin",
+      "size": 16384,
+      "sha256": "55bdf60498dc5c4f7500a8671843627477bffefc6b2306169ef371d5da11f8d6"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0720_ram.bin",
+      "size": 2048,
+      "sha256": "c008ee0b1ab6998222b5c7408e7dec1cd2b742fb34036ac9330c9a95ff127569"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0720_state.txt",
+      "size": 8649,
+      "sha256": "794407d259f9a2b1663adf89d6b7b9e94ae1e51f0d5ac98fe20cbb34a25997e1"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0840.png",
+      "size": 2716,
+      "sha256": "7314baafedbf69379df779161c303173e723fda085a126ab8fcb60ba3b9b5f13"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0840_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0840_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0840_ppu.bin",
+      "size": 16384,
+      "sha256": "b026247049e807f9676bcc6f6f347d8489eb37b62904593c8d047db6ee4350a5"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0840_ram.bin",
+      "size": 2048,
+      "sha256": "382c6430015299329425d877e033d4348121f58cce3350af9b95ef58f33fea8b"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0840_state.txt",
+      "size": 8672,
+      "sha256": "ff6bb27a26cc06937b99e1cb3ab600fed1a14f1f8bd37e9820ee800c7b4abc33"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0900.png",
+      "size": 2716,
+      "sha256": "7314baafedbf69379df779161c303173e723fda085a126ab8fcb60ba3b9b5f13"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0900_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0900_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0900_ppu.bin",
+      "size": 16384,
+      "sha256": "85f678cd590c750a39dbbcb7ec525e9b1932524e00cdf48e70020d9ebd235632"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0900_ram.bin",
+      "size": 2048,
+      "sha256": "be461c32d89da6d61745a42c705ade9c2ab935949454ae8c4caeab08238baa41"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0900_state.txt",
+      "size": 8670,
+      "sha256": "f1b6e3bd0ac5f57b3d938ad056d04e5f7f26613703101cbd69e90c14c7d1b1de"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0960.png",
+      "size": 2714,
+      "sha256": "514ec877c4d473fafb758b53fbf2f21ab964455528843ef039ea8b0e5dc04767"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0960_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0960_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0960_ppu.bin",
+      "size": 16384,
+      "sha256": "90b10aaf3aa296a2ff88744521807e095aafb1a155427ba449cbcf7305148058"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0960_ram.bin",
+      "size": 2048,
+      "sha256": "443e0c361d8ad4df6252ecfc69a6af9e8f2c5a47efcb151739579d1a584e6283"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_0960_state.txt",
+      "size": 8666,
+      "sha256": "64079b2ad8f42d1329db8e46d8bb576e77ca8198398ba9c81c9e9e7e0992b6e4"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_1020.png",
+      "size": 1172,
+      "sha256": "05adb1f08e38bb52a73bebf8aa61a91aeabbb481be52b1c1afffb76926b4debd"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_1020_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_1020_oam.bin",
+      "size": 256,
+      "sha256": "9424bead16ed0ebf5134f8aabdf462ad5535042569808a9f6c44477e91ff627a"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_1020_ppu.bin",
+      "size": 16384,
+      "sha256": "10ab2d2add5585d39e5119da4d76e1d80a12a7082c572a8c8b1db9d4860495f0"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_1020_ram.bin",
+      "size": 2048,
+      "sha256": "ab5f59b0e1c5c634c7baca2476fbe73a0746960577b04a912470995cbf11bddd"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_1020_state.txt",
+      "size": 8641,
+      "sha256": "c4594599044210af610d48c583b5bb3653212c9689e7f6b88aba919e7e601c21"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_1140.png",
+      "size": 1172,
+      "sha256": "f09b1cd46dcf65526bb4537fc50d8e10afe9e28e615124265de9b11af99e4e0d"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_1140_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_1140_oam.bin",
+      "size": 256,
+      "sha256": "9424bead16ed0ebf5134f8aabdf462ad5535042569808a9f6c44477e91ff627a"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_1140_ppu.bin",
+      "size": 16384,
+      "sha256": "627283693436a9685570caa9f0e56014b9d30aae1e92fb85dbe3d38945d921b5"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_1140_ram.bin",
+      "size": 2048,
+      "sha256": "ff80f65b0feab0a5d1011036019fee5fa702f2bdb955b50a1c5deb2b4b3969a8"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/frame_1140_state.txt",
+      "size": 8637,
+      "sha256": "9cb51c5ea6e18c410f1d54a7fea1a5925bbf106b541545d0dea8cffb0804e3e0"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/prg_reads.csv",
+      "size": 2334,
+      "sha256": "f79240d84feedc2947da8b11993a202a24f0dc45060e3951d8549f9c4fb9c7c2"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/stderr.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/stdout.txt",
+      "size": 1070,
+      "sha256": "2ec1d7845cb493e71c4690a060ff884c75dd55d2dbc5d3626b2c22c3eaa9a317"
+    },
+    {
+      "path": "qa/title_kr_ai_002/cold_boot_001/verification.json",
+      "size": 5408,
+      "sha256": "dd83d70cc9354f7e679db575a2a07205b9707275d1fb62f8f394fb07bdba949a"
+    },
+    {
+      "path": "qa/title_kr_ai_002/VISUAL_REVIEW.md",
+      "size": 1898,
+      "sha256": "0e31b16e8ffcb0277d55fbb518232a2efe1cc74080140701a3002c60a6cca70d"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/emulator/Debugger/Ninja_Jajamaru_kun_KR_title_menu_003.cdl",
+      "size": 32777,
+      "sha256": "1457376818d3e8da062e79881388b5c3d3279057b78b0c2370211a38cbbd9e25"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/emulator/libHarfBuzzSharp.dll",
+      "size": 1804872,
+      "sha256": "eb76238c9e8e41d44b5a5b18167c4c5b39ca5db4277af5dbe92d730f0fc14a7d"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/emulator/libSkiaSharp.dll",
+      "size": 9414216,
+      "sha256": "9a0d95e8caaa852c70d085af6a40a744242172ad9ea3fd6bc7599875a8a1dbcd"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/emulator/Mesen.exe",
+      "size": 70470144,
+      "sha256": "d2eb03c2590c648bf329f127ebcfefd70130e7690a9e2ccdba8616faea1fe96b"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/emulator/MesenCore.dll",
+      "size": 7143424,
+      "sha256": "65f69a7bdb25c35fdca77c9c73e71ef3e8ec233380204d94cfc0179933048c74"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/emulator/MesenNesDB.txt",
+      "size": 559118,
+      "sha256": "cff835b8a3d5b07d9d111382da6c49ccae150cdbaa9a0e49e15aa381af471307"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/emulator/Satellaview/BSX0120-0.bin",
+      "size": 34,
+      "sha256": "ba0c17b5786724959bc206714fc18f708c16fdcd77f8fb19aaf9768338e3ce01"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/emulator/Satellaview/BSX0121-0.bin",
+      "size": 34,
+      "sha256": "fbe51a53638dd366b50ea53adf92f54447667d7767c502e508d89b008e31c53f"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/emulator/Satellaview/BSX0122-0.bin",
+      "size": 1031,
+      "sha256": "a0329450e1d42cd18d30070a86e0e481a876cb5c9cfbaab4a0d8895150976ee7"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/emulator/Satellaview/BSX0123-0.bin",
+      "size": 16,
+      "sha256": "dbf5ef12ce586712ee666fc5805e6dfcaa1e253fdd36644f773909514868a590"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/emulator/Satellaview/BSX0124-0.bin",
+      "size": 97,
+      "sha256": "4d7d7bf5afe5c4f71b96965e58003816c70c13e8af9b581431504d5e52a0cec1"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/emulator/settings.json",
+      "size": 185,
+      "sha256": "596157e2332681c3a0ab7c75e09d6d03c9004741fd4fa191da97d000bc9f3955"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/environment.json",
+      "size": 8737,
+      "sha256": "801760bca8c262408462e1d6d7843e23ed8634bc22195d1e4504c3eb5cb96a81"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0060.png",
+      "size": 2595,
+      "sha256": "ddecbbb92debd5611cd3242da5fb642b22a4e0ca18b76a4bf9487a5800d6a7eb"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0060_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0060_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0060_ppu.bin",
+      "size": 16384,
+      "sha256": "a617a04d95d0f55f0197a84af1b9ab3d5da2771d394e3fdf53d6b0bfce7deb92"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0060_ram.bin",
+      "size": 2048,
+      "sha256": "78ce9d57e3f8a44e569e9b0f23a75ce9c1210ee10cf89fd165f9ea6c66657a4f"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0060_state.txt",
+      "size": 8665,
+      "sha256": "bd9baca7821651f4fe343aee8f163ee216ca9767f602b2ba7dbf2ea229a8a8d3"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0120.png",
+      "size": 2595,
+      "sha256": "ddecbbb92debd5611cd3242da5fb642b22a4e0ca18b76a4bf9487a5800d6a7eb"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0120_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0120_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0120_ppu.bin",
+      "size": 16384,
+      "sha256": "0d392cb99413aae8df9a9e04432c8b4b19f46a015e19f21afa1d8a7b1ef4db69"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0120_ram.bin",
+      "size": 2048,
+      "sha256": "942fdc2f3309d418f8e57199d7fc93948ee90c41aeaebf8355feb80bffb739a4"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0120_state.txt",
+      "size": 8673,
+      "sha256": "f4896bed75d00171942a21a74c8d9dec57a9b4a10104e1321244f0050fc3f7c7"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0240.png",
+      "size": 2595,
+      "sha256": "ddecbbb92debd5611cd3242da5fb642b22a4e0ca18b76a4bf9487a5800d6a7eb"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0240_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0240_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0240_ppu.bin",
+      "size": 16384,
+      "sha256": "51883eb090bf231f4cfa3ddf2513055d7bf0e0f47632b80bd6cd8767afb8ba69"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0240_ram.bin",
+      "size": 2048,
+      "sha256": "f1e9b6946a6a18677e6a95d3fc9e0b136c60da6d032a833f690d3b288630676e"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0240_state.txt",
+      "size": 8671,
+      "sha256": "06c1050c0efb9f86e83d8fa5529f0e14847d75f8526c4eda3a2e4fcdede83946"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0360.png",
+      "size": 1172,
+      "sha256": "c6e36b74815e8dda8dbaf1891ccdc0b3658ffd19453fde7cd41095d5f0bcccfd"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0360_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0360_oam.bin",
+      "size": 256,
+      "sha256": "9424bead16ed0ebf5134f8aabdf462ad5535042569808a9f6c44477e91ff627a"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0360_ppu.bin",
+      "size": 16384,
+      "sha256": "10ab2d2add5585d39e5119da4d76e1d80a12a7082c572a8c8b1db9d4860495f0"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0360_ram.bin",
+      "size": 2048,
+      "sha256": "3bc74b738056b4020a7a27c714b4fd22917c7c62e65101623573c84f73cdd2a2"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0360_state.txt",
+      "size": 8638,
+      "sha256": "d7643e109ed56b53506c46079cdffc82b8162218e3fc4516da6b1d96840a62d8"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0480.png",
+      "size": 635,
+      "sha256": "cf36b42eb8cd5743f51d836a8de0bc068a69d99387d41573a999b49263482ec8"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0480_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0480_oam.bin",
+      "size": 256,
+      "sha256": "f1c70ea5a9e9b875498d27f412bcf7105871f96002b7e43afb4c0b5f833e7667"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0480_ppu.bin",
+      "size": 16384,
+      "sha256": "0ac30bc10d36c79e21bfc36a78597ff3755c57329e3cbfff0bf2d79ce0f478d3"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0480_ram.bin",
+      "size": 2048,
+      "sha256": "bb3627021e88effe78714aaf3578f2201c7ee0b5479ebc805bf11529c02ba81f"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0480_state.txt",
+      "size": 8672,
+      "sha256": "f192fe56d9a0baeaa6b93f0746e42467611e4495e45235c269baa41730078665"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0600.png",
+      "size": 3814,
+      "sha256": "34631a8fb0bbc518ffc6a104f58c6e8a54ba56815f7a99aa71b31f2cf92e7c2b"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0600_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0600_oam.bin",
+      "size": 256,
+      "sha256": "121bfe574dae2b8847e7771dd09c4eabf9f201c7d6b99540c2f6c4088b99dad5"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0600_ppu.bin",
+      "size": 16384,
+      "sha256": "55bdf60498dc5c4f7500a8671843627477bffefc6b2306169ef371d5da11f8d6"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0600_ram.bin",
+      "size": 2048,
+      "sha256": "314441cfae3ed61a132e77cfd7d492139b6f59f269ec76162502a00d4bb558f6"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0600_state.txt",
+      "size": 8642,
+      "sha256": "76a817e2f015121e6e42c07695b557981880aa4efd2ef5935199db5ed0c1c84c"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0720.png",
+      "size": 3980,
+      "sha256": "787f97ed9b130b1f53ce99a5bf68bcdcdb0ebe7aa6438fc0b51ed02c16e5c801"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0720_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0720_oam.bin",
+      "size": 256,
+      "sha256": "6231b466ed44a16f42667cd004fa43a72986fe70ae2e1604c2e3f8b8dbc5fd02"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0720_ppu.bin",
+      "size": 16384,
+      "sha256": "55bdf60498dc5c4f7500a8671843627477bffefc6b2306169ef371d5da11f8d6"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0720_ram.bin",
+      "size": 2048,
+      "sha256": "c008ee0b1ab6998222b5c7408e7dec1cd2b742fb34036ac9330c9a95ff127569"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0720_state.txt",
+      "size": 8648,
+      "sha256": "ee002a6efdcecd3ed02089576e8cb5f908cd8f54fd840528f227740e437525e3"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0840.png",
+      "size": 2595,
+      "sha256": "ddecbbb92debd5611cd3242da5fb642b22a4e0ca18b76a4bf9487a5800d6a7eb"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0840_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0840_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0840_ppu.bin",
+      "size": 16384,
+      "sha256": "e925c0b31c3bc6f90d8d58660d25d869b8111786cf3536913fe15f7661f55202"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0840_ram.bin",
+      "size": 2048,
+      "sha256": "e2c91543503d2558a78c484c1a2239d4ec81259bf0f1a3a7599db613c2d35e96"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0840_state.txt",
+      "size": 8672,
+      "sha256": "c223b9564b5d06ce0a1dae38b0ed3ab20a4e67c0f20207f50cbcdc0a03c658a6"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0900.png",
+      "size": 2595,
+      "sha256": "ddecbbb92debd5611cd3242da5fb642b22a4e0ca18b76a4bf9487a5800d6a7eb"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0900_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0900_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0900_ppu.bin",
+      "size": 16384,
+      "sha256": "51883eb090bf231f4cfa3ddf2513055d7bf0e0f47632b80bd6cd8767afb8ba69"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0900_ram.bin",
+      "size": 2048,
+      "sha256": "211a380611136e8612be6463485d19180f354d2dbc41e2fde785e8c3d2be6971"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0900_state.txt",
+      "size": 8670,
+      "sha256": "74da0718f0e22faa82645d0e59c33297db5bd4f8ce0d40a7f3f08d9ddfd8658d"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0960.png",
+      "size": 2588,
+      "sha256": "7618faed3425424d6d4d91c92c90c77d96a64055418c7d3b70f2e34b70dab69f"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0960_chr_mapping.txt",
+      "size": 109,
+      "sha256": "df965321736e744f14b4245bab9a539ffae1b414d20a2b10699df9f46fd8af3e"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0960_oam.bin",
+      "size": 256,
+      "sha256": "fd4159c159e52926742be106f771e96b10283e6f7ad9b7acd9f0af0e1bfdcc69"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0960_ppu.bin",
+      "size": 16384,
+      "sha256": "2de3c20451bc85d393d905a3cac0a0ed24e4eca976da8140fed30255a0801655"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0960_ram.bin",
+      "size": 2048,
+      "sha256": "af89ce83374d6a5e149228b8ba7fda5cf9c62efad7d03024df9497cf4d78842a"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_0960_state.txt",
+      "size": 8668,
+      "sha256": "cd9616f20c6f32b6ec7f7b434cf13cc78a9471ef3c77c3fbee03552d6c570d4e"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_1020.png",
+      "size": 1172,
+      "sha256": "05adb1f08e38bb52a73bebf8aa61a91aeabbb481be52b1c1afffb76926b4debd"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_1020_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_1020_oam.bin",
+      "size": 256,
+      "sha256": "9424bead16ed0ebf5134f8aabdf462ad5535042569808a9f6c44477e91ff627a"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_1020_ppu.bin",
+      "size": 16384,
+      "sha256": "10ab2d2add5585d39e5119da4d76e1d80a12a7082c572a8c8b1db9d4860495f0"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_1020_ram.bin",
+      "size": 2048,
+      "sha256": "16158af0dfb8d702202cf93263c04be32dc89ff5cf8d0c5e18bc52163dcdbfd3"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_1020_state.txt",
+      "size": 8642,
+      "sha256": "8581634a428f7375aff0753f4c45911a6f72a5475f04e0ccc51d49893de43ff9"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_1140.png",
+      "size": 1172,
+      "sha256": "f09b1cd46dcf65526bb4537fc50d8e10afe9e28e615124265de9b11af99e4e0d"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_1140_chr_mapping.txt",
+      "size": 100,
+      "sha256": "019915510558e74993021a735c03862bd9f89dd85b5bc6bed319ee38986b8464"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_1140_oam.bin",
+      "size": 256,
+      "sha256": "9424bead16ed0ebf5134f8aabdf462ad5535042569808a9f6c44477e91ff627a"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_1140_ppu.bin",
+      "size": 16384,
+      "sha256": "627283693436a9685570caa9f0e56014b9d30aae1e92fb85dbe3d38945d921b5"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_1140_ram.bin",
+      "size": 2048,
+      "sha256": "b705b3128e29ebf783f115283a5c65ac37a40539f1cea4039394ceb29269453b"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/frame_1140_state.txt",
+      "size": 8638,
+      "sha256": "b4871c603499083659b1440d499865909d292f863874094e2319bc980cce7105"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/menu_reads.csv",
+      "size": 354,
+      "sha256": "ddc784eee302be76f17d5852cb3319ddbd881d63eb5b66e6677cc91e02c04562"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/prg_reads.csv",
+      "size": 2334,
+      "sha256": "f79240d84feedc2947da8b11993a202a24f0dc45060e3951d8549f9c4fb9c7c2"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/stderr.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/stdout.txt",
+      "size": 1072,
+      "sha256": "d26950035e518e3e99d5f85349907ea0d13788b5e85cf315d8605d92f21ea3c7"
+    },
+    {
+      "path": "qa/title_kr_menu_003/cold_boot_001/verification.json",
+      "size": 6980,
+      "sha256": "34356d41eccab573c557dd0f295580347f755e4422c5978e355a6d591b34216d"
+    },
+    {
+      "path": "qa/title_kr_menu_003/VISUAL_REVIEW.md",
+      "size": 1891,
+      "sha256": "acb917168c239076d9a0b7aca4244a7883aa23d9fbf343ef53b15f3b085c2b5e"
+    },
+    {
+      "path": "README.md",
+      "size": 3545,
+      "sha256": "f501ece31952d75f5edf027bfd2c3d2ba69776354fe88b293d672a9ff217330f"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 15,
+      "sha256": "41b54a6fb2918667ca47a61d73b522629d84490f3d78f0f20b21135faba10d35"
+    },
+    {
+      "path": "scripts/build.ps1",
+      "size": 995,
+      "sha256": "e712fb1a2baa5e95f27bef67920410115a1e945977e92b6cb0b7661efa6df396"
+    },
+    {
+      "path": "scripts/build_title.py",
+      "size": 7658,
+      "sha256": "41508489f8e99f842b183ddae80bcc0eda24d51e9485d589569e9ec3878f9d2e"
+    },
+    {
+      "path": "scripts/capture_title.lua",
+      "size": 2640,
+      "sha256": "61bb5409f88cfb53944b28d9909f688f7eec746fd46376f3209d502e5c53606b"
+    },
+    {
+      "path": "scripts/convert_generated_title.py",
+      "size": 2834,
+      "sha256": "c19dbccf4d45343a50a6740338e34c96263bf6d2b8cdff2c51980f8a1afbf317"
+    },
+    {
+      "path": "scripts/extract_title_png.py",
+      "size": 1522,
+      "sha256": "b48eb9deb3ee4aab4bfd47d0ac8d947bb3c6507a629ac1a14c7f355f51dce2b2"
+    },
+    {
+      "path": "scripts/make_title_art.py",
+      "size": 1869,
+      "sha256": "f2fe37d067b92bb800b8121bb0de157dd7fdc582fb7bc56742bc8220c07197f0"
+    },
+    {
+      "path": "scripts/menu_assets.py",
+      "size": 3166,
+      "sha256": "889988772b42940cb33c89c108fb6f6ee15d9d05bc565342cef184e4837f1dc3"
+    },
+    {
+      "path": "scripts/nes_graphics.py",
+      "size": 546,
+      "sha256": "f3ef2675831dab44e256c01a6477e34b6e101ea09d4d7e033142a26035dbc2a2"
+    },
+    {
+      "path": "scripts/run_title_qa.py",
+      "size": 2418,
+      "sha256": "5c065405f02037604faa1d8cf5bd9c7438956b0dcf44c2fbf984e9eb30efb7df"
+    },
+    {
+      "path": "scripts/survey_menu.py",
+      "size": 3051,
+      "sha256": "63b05e161bac55333653ac880ad8634430c73867260c0160b7ef822a966be390"
+    },
+    {
+      "path": "scripts/survey_title.py",
+      "size": 2501,
+      "sha256": "4d6ba541994b62189ef0c1fca2798af0731c0fcefbf765b444c9ba1372b307bb"
+    },
+    {
+      "path": "scripts/verify_title_qa.py",
+      "size": 7411,
+      "sha256": "45ffb5ebd4a9e829d272f2901d0bedbc7c13979583b6731033b0c11c9cc33d9c"
+    }
+  ]
+}

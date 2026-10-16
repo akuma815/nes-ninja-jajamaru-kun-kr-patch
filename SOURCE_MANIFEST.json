@@ -1,0 +1,186 @@
+{
+  "date": "2026-10-16",
+  "project": "닌자 자자마루군",
+  "files": [
+    {
+      "path": "scripts/build.ps1",
+      "source": "scripts/build.ps1",
+      "bytes": 995,
+      "sha256": "e712fb1a2baa5e95f27bef67920410115a1e945977e92b6cb0b7661efa6df396"
+    },
+    {
+      "path": "scripts/build_title.py",
+      "source": "scripts/build_title.py",
+      "bytes": 7658,
+      "sha256": "41508489f8e99f842b183ddae80bcc0eda24d51e9485d589569e9ec3878f9d2e"
+    },
+    {
+      "path": "scripts/capture_title.lua",
+      "source": "scripts/capture_title.lua",
+      "bytes": 2640,
+      "sha256": "61bb5409f88cfb53944b28d9909f688f7eec746fd46376f3209d502e5c53606b"
+    },
+    {
+      "path": "scripts/convert_generated_title.py",
+      "source": "scripts/convert_generated_title.py",
+      "bytes": 2834,
+      "sha256": "c19dbccf4d45343a50a6740338e34c96263bf6d2b8cdff2c51980f8a1afbf317"
+    },
+    {
+      "path": "scripts/extract_title_png.py",
+      "source": "scripts/extract_title_png.py",
+      "bytes": 1522,
+      "sha256": "b48eb9deb3ee4aab4bfd47d0ac8d947bb3c6507a629ac1a14c7f355f51dce2b2"
+    },
+    {
+      "path": "scripts/make_title_art.py",
+      "source": "scripts/make_title_art.py",
+      "bytes": 1869,
+      "sha256": "f2fe37d067b92bb800b8121bb0de157dd7fdc582fb7bc56742bc8220c07197f0"
+    },
+    {
+      "path": "scripts/menu_assets.py",
+      "source": "scripts/menu_assets.py",
+      "bytes": 3166,
+      "sha256": "889988772b42940cb33c89c108fb6f6ee15d9d05bc565342cef184e4837f1dc3"
+    },
+    {
+      "path": "scripts/nes_graphics.py",
+      "source": "scripts/nes_graphics.py",
+      "bytes": 546,
+      "sha256": "f3ef2675831dab44e256c01a6477e34b6e101ea09d4d7e033142a26035dbc2a2"
+    },
+    {
+      "path": "scripts/run_title_qa.py",
+      "source": "scripts/run_title_qa.py",
+      "bytes": 2418,
+      "sha256": "5c065405f02037604faa1d8cf5bd9c7438956b0dcf44c2fbf984e9eb30efb7df"
+    },
+    {
+      "path": "scripts/survey_menu.py",
+      "source": "scripts/survey_menu.py",
+      "bytes": 3051,
+      "sha256": "63b05e161bac55333653ac880ad8634430c73867260c0160b7ef822a966be390"
+    },
+    {
+      "path": "scripts/survey_title.py",
+      "source": "scripts/survey_title.py",
+      "bytes": 2501,
+      "sha256": "4d6ba541994b62189ef0c1fca2798af0731c0fcefbf765b444c9ba1372b307bb"
+    },
+    {
+      "path": "scripts/verify_title_qa.py",
+      "source": "scripts/verify_title_qa.py",
+      "bytes": 7411,
+      "sha256": "45ffb5ebd4a9e829d272f2901d0bedbc7c13979583b6731033b0c11c9cc33d9c"
+    },
+    {
+      "path": "config/source.json",
+      "source": "config/source.json",
+      "bytes": 280,
+      "sha256": "4138dbe4b40bf81d4bbea6f4e99025effe0fac070474628a30ed1fdcc46b3245"
+    },
+    {
+      "path": "config/title.json",
+      "source": "config/title.json",
+      "bytes": 1370,
+      "sha256": "89092d375e5145360210ebe6e2031307629f515b0cb85cedfbe38ff710620621"
+    },
+    {
+      "path": "config/title_kr_ai_001.json",
+      "source": "config/title_kr_ai_001.json",
+      "bytes": 719,
+      "sha256": "3b389f83483fa01a1a3b094a9e52f765ac682d9ba456b8cb0e5051c058218aff"
+    },
+    {
+      "path": "config/title_kr_ai_002.json",
+      "source": "config/title_kr_ai_002.json",
+      "bytes": 1129,
+      "sha256": "c96f43488150a4df3111772a86e993362dbd8c5c4ba9c56f1c2c67a58ff94808"
+    },
+    {
+      "path": "assets/fonts/Galmuri_OFL.md",
+      "source": "assets/fonts/Galmuri_OFL.md",
+      "bytes": 4266,
+      "sha256": "9a9e5a342c430c3fcf01a408b680f4405d5bf4ac659c931be35f8a1b27ea69c9"
+    },
+    {
+      "path": "assets/menu/menu_kr.json",
+      "source": "assets/menu/menu_kr.json",
+      "bytes": 1731,
+      "sha256": "3dc98e631b0eb36e8715223ec8599c88c99d1ae121a6e98e64e8ad4795e6b0dc"
+    },
+    {
+      "path": "assets/title/title_kr_ai_001_prompt.txt",
+      "source": "assets/title/title_kr_ai_001_prompt.txt",
+      "bytes": 1703,
+      "sha256": "3717350dde7d999476cb01ef6af429ddd82b2d11efcf13b3db98d29f64c69da2"
+    },
+    {
+      "path": "assets/title/title_kr_ai_002_prompt.txt",
+      "source": "assets/title/title_kr_ai_002_prompt.txt",
+      "bytes": 1554,
+      "sha256": "d411099152bd7d151a3c5ef870fc244632c377e05d7299ac73bb11e02773b300"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "source": "docs/ARCHITECTURE.md",
+      "bytes": 5958,
+      "sha256": "fbfd17459b2f7ac351c703e51905fb28ed79cbb2185855f452ed5430614f6978"
+    },
+    {
+      "path": "docs/HANDOFF.md",
+      "source": "docs/HANDOFF.md",
+      "bytes": 187,
+      "sha256": "09cc49f45eaf7b6891eaf7942101dc1960edabfa368622a2c7b99429016f0a72"
+    },
+    {
+      "path": "docs/HANDOFF_2026-10-10.md",
+      "source": "docs/HANDOFF_2026-10-10.md",
+      "bytes": 8137,
+      "sha256": "6d4ec4937f0c80e78cac2b7ddce3328c85eed6358ba9e5af69d76d71b8865df0"
+    },
+    {
+      "path": "docs/REVISION_title_kr_ai_002_2026-10-10.md",
+      "source": "docs/REVISION_title_kr_ai_002_2026-10-10.md",
+      "bytes": 5279,
+      "sha256": "1e72b10a57283255a0c805ac0846a436999900337338d267095fd14eeb5e2fc0"
+    },
+    {
+      "path": "docs/SESSION_ARTIFACTS_2026-10-10.json",
+      "source": "docs/SESSION_ARTIFACTS_2026-10-10.json",
+      "bytes": 36840,
+      "sha256": "55842c410b8a4fd59cb0ef75102e2b6920e9b5908e7c75a2d1d94a1236c715ce"
+    },
+    {
+      "path": "docs/SESSION_ARTIFACTS_2026-10-10_title_kr_ai_002.json",
+      "source": "docs/SESSION_ARTIFACTS_2026-10-10_title_kr_ai_002.json",
+      "bytes": 54127,
+      "sha256": "42f3424ea19518576829ecde9a3205511920c6e10331717327c9cddaf7e783f9"
+    },
+    {
+      "path": "docs/SESSION_ARTIFACTS_2026-10-10_title_kr_menu_003.json",
+      "source": "docs/SESSION_ARTIFACTS_2026-10-10_title_kr_menu_003.json",
+      "bytes": 84703,
+      "sha256": "4806f6075be4152abc8e25bc5aae11d1dbf8381f3042ccfb7d439db7f25dfbe5"
+    },
+    {
+      "path": "docs/archive/HANDOFF_2026-10-10_before_menu003.md",
+      "source": "docs/archive/HANDOFF_2026-10-10_before_menu003.md",
+      "bytes": 9375,
+      "sha256": "38c674d51f8cfe1233493a206415b0d39a7500d9f7ba7dc0b89bd0a3fb0801df"
+    },
+    {
+      "path": "requirements.txt",
+      "source": "requirements.txt",
+      "bytes": 15,
+      "sha256": "41b54a6fb2918667ca47a61d73b522629d84490f3d78f0f20b21135faba10d35"
+    },
+    {
+      "path": "docs/PROJECT_NOTES.md",
+      "source": "README.md",
+      "bytes": 3545,
+      "sha256": "f501ece31952d75f5edf027bfd2c3d2ba69776354fe88b293d672a9ff217330f"
+    }
+  ]
+}

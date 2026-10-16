@@ -1,0 +1,7 @@
+Use case: text-localization.
+Image 1 is the edit target: the previously generated Korean NES title logo. Image 2 is the original game screen, a reference for the hierarchy of the small ending suffix.
+Correct ONLY the final Korean syllable "군" at the far right of image 1. The existing prefix "닌자" and main title "자자마루" should remain visually unchanged in their positions, shape, colors, size, expressive brush style, and yellow outlines.
+Remove the current large blue "군" and replace it with a SMALL GOLDEN-YELLOW "군", approximately HALF the height and width of an individual main-title syllable. Its body/fill must be GOLDEN YELLOW, not blue. A very thin royal-blue border is allowed to resemble the original suffix's reversed colors, but the small syllable must be predominantly yellow and clearly readable.
+Place this small yellow "군" snugly to the lower right of "루", aligned with the lower baseline of the main title, as a modest playful suffix rather than another full-size title syllable. The final ㄴ at the bottom of 군 must remain clear.
+Exact complete text is "닌자 자자마루군": small red 닌자, four large blue syllables 자 자 마 루, then one small yellow 군. No missing or repeated syllables.
+Keep the same wide black canvas, flat NES color scheme, bold rounded brush-like strokes, pixel-friendly edges. No gradients, new elements, characters, Japanese, English, captions, watermarks, or extra versions. Maintain the original art outside the final suffix region. Return the corrected logo on pure black.

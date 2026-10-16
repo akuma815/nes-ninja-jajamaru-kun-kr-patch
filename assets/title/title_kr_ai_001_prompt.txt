@@ -1,0 +1,11 @@
+Use case: text-localization.
+Asset type: Korean localized title logo for the NES game Ninja Jajamaru-kun.
+Input image 1 is the original ROM-extracted Japanese logo, enlarged by nearest neighbor, on black. It is the style and layout reference.
+Replace the Japanese lettering with EXACT Korean text: "닌자 자자마루군".
+The small prefix on the left must read "닌자" (닌, 자) in red with a thin golden-yellow outline, lively hand-brushed slightly tilted lettering.
+The large main title on the right must read "자자마루군" (자, 자, 마, 루, 군) in saturated royal blue with a thin golden-yellow outline. Make every Hangul syllable correct and readable, including the final ㄴ in 군.
+Preserve the original playful, rounded, thick brush-letter silhouette, organic sweeping curves, slight irregular tilt and alternating heights. Main lettering is large and substantial, like the original Japanese logo, not square technical lettering.
+Single compact horizontal wordmark, prefix approximately one fifth of total width, main title four fifths. Keep the whole title completely visible with clear black space around it.
+Use only four flat colors: pure black background, royal blue fill, red prefix fill, yellow outline. No gradients, no highlights, no shadows outside the thin yellow edge. It must simplify cleanly to an 184 by 40 pixel NES logo, so use bold simple strokes and open counters, avoid small decorative details.
+Do not add ninja characters, swords, stars, a scene, a frame, English or Japanese text, captions, watermark, extra logos, or a second version.
+Return just this Korean logo on a pure black canvas, horizontally centered, with the original logo's personality and colors.
