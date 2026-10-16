@@ -1,7 +1,7 @@
-# Current release handoff - v1.0
+# 재개 진입점
 
-See [v1.0 release notes](releases/v1.0/RELEASE_NOTES.md), [source/build guide](SOURCE_GUIDE.md) and [Windows apply validation](releases/v1.0/apply_validation.json).
+- [2026-10-16 최종 빌드 재현·게임 폴더 정리 인계](HANDOFF_2026-10-16.md)
+- [새 공개 체크아웃 재빌드 검증](rebuild_verification_2026-10-16.json)
+- [v1.0 공개 소스 빌드 안내](SOURCE_GUIDE.md)
 
-The known seven Japanese enemy names and appearance label use Jeju Hallasan. Non-title English remains unchanged. Full-playthrough and hardware validation are not claimed. Earlier handoffs are historical snapshots.
-
-Next action: reproduce user reports using source/result hashes, emulator version and scene details.
+사용자는 원본 ROM을 나중에 별도로 준비한다. 최종 빌드 필수 파일은 Git에 있다.

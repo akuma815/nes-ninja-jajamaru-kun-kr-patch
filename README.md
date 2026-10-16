@@ -48,5 +48,7 @@ Windows 도구는 입력·패치·출력 SHA-256을 검사하며 별도 패처 �
 
 [v1.0 상세 릴리즈 기록](docs/releases/v1.0/RELEASE_NOTES.md) · [공개 소스 빌드 안내](docs/SOURCE_GUIDE.md)
 
+[최신 인계·로컬 폴더 정리 및 재빌드 절차](docs/HANDOFF.md). 원본 ROM을 제외한 최종 빌드 필수 파일은 이 저장소에 있습니다.
+
 폰트 원문 라이선스는 `assets/fonts/`와 배포 ZIP의 `licenses/`에 보존했습니다.
 기존 [타이틀·메뉴003 릴리즈](https://github.com/akuma815/nes-ninja-jajamaru-kun-kr-patch/releases/tag/title-menu-003)는 유지합니다.
